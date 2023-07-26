@@ -13,15 +13,15 @@
         <p>
             <span style="font-size: 18px"><b>Homeworks</b></span><br>
             <a on:click={() => (showHomework1 = true)}>Homework 1</a><br>
-            <a href=unit_01_homework_2.html>Homework 2</a><br>
-            <a href=unit_01_homework_3.html>Homework 3</a>
+            <a>Homework 2</a><br>
+            <a>Homework 3</a>
         </p>
         <p>
             <span style="font-size: 18px"><b>From Lectures</b></span><br>
-            <a href=unit_01_advantages_of_FIs.html>The Advantages of F.I.s</a> (from slides)<br>
-            <a href=unit_01_adverse_selection_with_screening.html>Adverse Selection with Screening</a> (from slides)<br>
-            <a href=unit_01_moral_hazard.html>Moral Hazard</a> (from slides)<br>
-            <a href=unit_01_old_money_creation>Old Money Creation</a> (from slides)
+            <a>The Advantages of F.I.s</a> (from slides)<br>
+            <a>Adverse Selection with Screening</a> (from slides)<br>
+            <a>Moral Hazard</a> (from slides)<br>
+            <a>Old Money Creation</a> (from slides)
         </p>
 
 

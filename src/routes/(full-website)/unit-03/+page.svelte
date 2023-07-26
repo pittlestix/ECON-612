@@ -5,16 +5,16 @@
         <p><span style="font-size: 24px"><b>Unit 3</b></span></p>
         <p>
             <span style="font-size: 18px"><b>Homeworks</b></span><br>
-            <a href=content-missing.html target="_blank">Homework 6</a><br>
-            <a href=content-missing.html>Homework 7</a>
+            <a>Homework 6</a><br>
+            <a>Homework 7</a>
         </p>
         <p>
             <span style="font-size: 18px"><b>Other Examples</b></span><br>
-            <a href=content-missing.html target="_blank">Example 11.1: Securitization</a><br>
-            <a href=content-missing.html target="_blank">Example 11.2: Securitization</a><br>
-            <a href=unit-03-12-2-diamond-dybvig-model.pdf target="_blank">Example 12.2: The Diamond-Dybvig Model</a><br>
-            <a href=content-missing.html target="_blank">Diamond-Dybvig Game Theoretic Model</a> (from slides)<br>
-            <a href=content-missing.html target="_blank">Understanding Bank Runs</a> (discussion)
+            <a>Example 11.1: Securitization</a><br>
+            <a>Example 11.2: Securitization</a><br>
+            <a>Example 12.2: The Diamond-Dybvig Model</a><br>
+            <a>Diamond-Dybvig Game Theoretic Model</a> (from slides)<br>
+            <a>Understanding Bank Runs</a> (discussion)
         </p>        
     </td>
     </tr>

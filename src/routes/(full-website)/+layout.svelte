@@ -1,5 +1,6 @@
 <script lang = 'ts'>
 	import "$lib/styles.css"
+	import { base } from "$app/paths";
 </script>
 
 <!-- A message for Elise: npm run dev -->
@@ -17,17 +18,17 @@
 		<!-- Navigation -->
 		
 		<p><center>
-			<a href="/"><button class = "button button1"><b>Home</b></button></a>
-			<a href="/unit-01"><button class="button button1"><b>Unit 1</b></button></a>
-			<a href="/unit-02"><button class="button button1"><b>Unit 2</b></button></a>
-			<a href="/unit-03"><button class="button button1"><b>Unit 3</b></button></a>
+			<a href="{base}/"><button class = "button button1"><b>Home</b></button></a>
+			<a href="{base}/unit-01"><button class="button button1"><b>Unit 1</b></button></a>
+			<a href="{base}/unit-02"><button class="button button1"><b>Unit 2</b></button></a>
+			<a href="{base}/unit-03"><button class="button button1"><b>Unit 3</b></button></a>
 		</center></p>
 		
 		<hr>
 		
 		<p><center>
-			<a href="/office-hours"><button class="button button1"><b>Office Hours</b></button></a>
-			<a href="/contact-me"><button class="button button1"><b>Contact Me</b></button></a>
+			<a href="{base}/office-hours"><button class="button button1"><b>Office Hours</b></button></a>
+			<a href="{base}/contact-me"><button class="button button1"><b>Contact Me</b></button></a>
 		</center></p>
 		
 		</td>
