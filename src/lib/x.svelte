@@ -4,6 +4,12 @@
     svg {
         height: 24px;
         fill: #FF628B;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    svg:hover {
+        fill: #33A7BA;
+        cursor: pointer;
     }
 </style>
 

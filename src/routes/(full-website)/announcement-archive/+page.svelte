@@ -2,8 +2,10 @@
 	<table align="center" width="900px" cellpadding="60px">
 	<tr>
 	<td class="yuh">
-        <p><b><span style="font-size: 24px">Previous Announcements</span></b></p>
-        <p><i>There are currently no previous announcements.</i></p>
+		<center>
+			<p><b><span style="font-size: 24px">Previous Announcements</span></b></p>
+			<p><i>There are currently no previous announcements.</i></p>
+		</center>
     </td>
 	</tr>
 	</table>
