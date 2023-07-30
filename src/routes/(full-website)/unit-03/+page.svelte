@@ -1,3 +1,14 @@
+<script lang="ts">
+    import Modal from "$lib/modal.svelte";
+    let showHomework6: boolean = false;
+    let showHomework7: boolean = false;
+    let showExample111: boolean = false;
+    let showExample112: boolean = false;
+    let showExample122: boolean = false;
+    let showDiamondDybvigGameTheoreticModel: boolean = false;
+    let showUnderstandingBankRuns: boolean = false;
+</script>
+
 <body class="slay">
     <table align="center" width="900px" cellpadding="60px">
     <tr>
@@ -5,20 +16,95 @@
         <p><span style="font-size: 24px"><b>Unit 3</b></span></p>
         <p>
             <span style="font-size: 18px"><b>Homeworks</b></span><br>
-            <a>Homework 6</a><br>
-            <a>Homework 7</a>
+            <a on:click={() => (showHomework6 = true)}>Homework 6</a><span style="color: #FF628B">*</span><br>
+            <a on:click={() => (showHomework7 = true)}>Homework 7</a><span style="color: #FF628B">*</span>
         </p>
         <p>
             <span style="font-size: 18px"><b>Other Examples</b></span><br>
-            <a>Example 11.1: Securitization</a><br>
-            <a>Example 11.2: Securitization</a><br>
-            <a>Example 12.2: The Diamond-Dybvig Model</a><br>
-            <a>Diamond-Dybvig Game Theoretic Model</a> (from slides)<br>
-            <a>Understanding Bank Runs</a> (discussion)
-        </p>        
+            <a on:click={() => (showExample111 = true)}>Example 11.1: Securitization</a><span style="color: #FF628B">*</span><br>
+            <a on:click={() => (showExample112 = true)}>Example 11.2: Securitization</a><span style="color: #FF628B">*</span><br>
+            <a on:click={() => (showExample122 = true)}>Example 12.2: The Diamond-Dybvig Model</a><span style="color: #FF628B">*</span><br>
+            <a on:click={() => (showDiamondDybvigGameTheoreticModel = true)}>Diamond-Dybvig Game Theoretic Model</a><span style="color: #FF628B">*</span> (from slides)<br>
+            <a on:click={() => (showUnderstandingBankRuns = true)}>Understanding Bank Runs</a><span style="color: #FF628B">*</span> (discussion)
+        </p>    
+        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content is from the previous academic year and has not been updated to reflect this year's lecture content. This is likely due to the content not yet being covered.</span></p>    
     </td>
     </tr>
     </table>
+
+    <!-- Modals -->
+
+    <Modal bind:showModal = {showHomework6}>
+        <center>
+            <p><b><span style="font-size: 24px">Homework 6</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+    <Modal bind:showModal = {showHomework7}>
+        <center>
+            <p><b><span style="font-size: 24px">Homework 7</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+    <Modal bind:showModal = {showExample111}>
+        <center>
+            <p><b><span style="font-size: 24px">Example 11.1</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+    <Modal bind:showModal = {showExample112}>
+        <center>
+            <p><b><span style="font-size: 24px">Example 11.2</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+    <Modal bind:showModal = {showExample122}>
+        <center>
+            <p><b><span style="font-size: 24px">Example 12.2</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+    <Modal bind:showModal = {showDiamondDybvigGameTheoreticModel}>
+        <center>
+            <p><b><span style="font-size: 24px">Diamond-Dybvig Game Theoretic Model</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+    <Modal bind:showModal = {showUnderstandingBankRuns}>
+        <center>
+            <p><b><span style="font-size: 24px">Understanding Bank Runs</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
+    </Modal>
+
 </body>
 
 <style>

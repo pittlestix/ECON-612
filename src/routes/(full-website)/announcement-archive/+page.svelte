@@ -6,6 +6,11 @@
 			<p><b><span style="font-size: 24px">Previous Announcements</span></b></p>
 			<p><i>There are currently no previous announcements.</i></p>
 		</center>
+		<!-- <p><b><span style="font-size: 18px">Announcement 1: Welcome</span></b></p>
+		<p><b>Added:</b> August 1, 2023<br>
+			<b>Removed:</b> August 22, 2023<br>
+			<b>Content:</b> Welcome, everyone! Our first class will take place on Tuesday, August 22, 2023. Make sure to look over the syllabus and complete any required readings before coming to class. You should have received these materials via email from Dr. Varghese.
+		</p> -->
     </td>
 	</tr>
 	</table>
