@@ -173,9 +173,9 @@
     .yuh {
         background-color: #161616;
     }
-    hr {
+    /* hr {
         width: 45px;
-    }
+    } */
     a:link {
         color: #F4BC53;
         background-color: transparent;
@@ -218,8 +218,8 @@
     .button1:hover {
         background-color: #33A7BA;
     }
-    .button2 {
+    /* .button2 {
         background-color: #FF628B;
-    }
+    } */
 </style>
     
