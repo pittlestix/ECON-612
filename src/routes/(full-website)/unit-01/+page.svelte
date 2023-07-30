@@ -39,7 +39,7 @@
     <Modal bind:showModal = {showHomework1}>
         <center>
             <p><b><span style="font-size: 24px">Homework 1</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1RvNbKGxh2VmRN-KWcY4a-beMJnZwRhtG/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1wjukdtcaBgvuYpJYXFVW85IigzVvhtoD/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
@@ -49,7 +49,7 @@
     <Modal bind:showModal = {showHomework2}>
         <center>
             <p><b><span style="font-size: 24px">Homework 2</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1EL_qkHjAZqF7w1_Pr0n_O7S2Tp6I-k0q/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1SDkdo6QK-kU3uz9v215o6L8wXmrnBmoa/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
@@ -59,7 +59,7 @@
     <Modal bind:showModal = {showHomework3}>
         <center>
             <p><b><span style="font-size: 24px">Homework 3</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1JqWDPp0Zu7JoQ88vSGmpeYpr7NaKAOLK/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1gd0lC7OWKsKdd9uJRKUtakkfCQ3C9Pj4/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
@@ -69,7 +69,7 @@
     <Modal bind:showModal = {showTheAdvantagesofFIs}>
         <center> 
             <p><b><span style="font-size: 24px">The Advantages of F.I.s</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/13EdOz-85cL9NZ3Ru8TVS5GStTym-6Jbq/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/121-ViMU8uWI-LIYjeO7U7CMIaxy0aUnk/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
@@ -79,7 +79,7 @@
     <Modal bind:showModal = {showAdverseSelectionwithScreening}>
         <center>
             <p><b><span style="font-size: 24px">Adverse Selection with Screening</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1BHfTSIxXicZX7GZMhfJQiGfzR3HVdGec/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1WUb82fo8n7NYzF3yyp_q3kZl5UI0kJOO/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
@@ -89,7 +89,7 @@
     <Modal bind:showModal = {showMoralHazard}>
         <center>
             <p><b><span style="font-size: 24px">Moral Hazard</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1EPRdIrOqtLM-bs7N8Jrz4cXpFhEsrenn/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1YX9qxCr0y1qfwSV6UWju2pqz2Psg12jM/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
@@ -99,7 +99,7 @@
     <Modal bind:showModal = {showOldMoneyCreation}>
         <center>
             <p><b><span style="font-size: 24px">Old Money Creation</span></b></p>
-            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="/contact-me">contact me</a></b>.</p> -->
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1bxcgV_v6uC8qkfYjNk8SJWIutUiBwhEu/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/19KO7VVgfhfw26dyJ8kkxOvVoQQjCzqIn/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
