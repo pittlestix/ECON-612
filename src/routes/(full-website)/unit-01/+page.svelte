@@ -1,4 +1,5 @@
 <script lang="ts">
+    import {base} from "$app/paths";
     import Modal from "$lib/modal.svelte";
     let showHomework1: boolean = false;
     let showHomework2: boolean = false;
