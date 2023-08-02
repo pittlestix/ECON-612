@@ -30,6 +30,12 @@
 			<a href="{base}/office-hours"><button class="button button1"><b>Office Hours</b></button></a>
 			<a href="{base}/contact-me"><button class="button button1"><b>Contact Me</b></button></a>
 		</center></p>
+
+		<hr>
+
+		<p>
+			<center><i><span style="font-size: 12px">You must be logged in to your TAMU email account to access each file.</span></i></center>
+		</p>
 		
 		</td>
 		</tr>

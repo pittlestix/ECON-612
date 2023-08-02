@@ -70,19 +70,19 @@
             <p><b><span style="font-size: 24px">Example 7.1</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a> -->
+            <a href="https://drive.google.com/file/d/1zMYIqe0wohUEs4cUBnIxGZ4j_6hWQapi/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1KhMjJgc62dxMeGUz21bg3hQLtda8dJgH/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
-            <p><i>Last updated 07/30/2023.</i></p>
+            <p><i>Last updated 07/31/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showExample72}>
         <center>
             <p><b><span style="font-size: 24px">Example 7.2</span></b></p>
             <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
-            <!-- <p>The following materials are available:</p> -->
-            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <!-- <p>The following materials are available:</p>
+            <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
-            <p><i>Last updated 07/30/2023.</i></p>
+            <p><i>Last updated 08/01/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showExample73}>
