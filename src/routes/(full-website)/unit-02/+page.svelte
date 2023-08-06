@@ -78,11 +78,11 @@
     <Modal bind:showModal = {showExample72}>
         <center>
             <p><b><span style="font-size: 24px">Example 7.2</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
-            <!-- <p>The following materials are available:</p>
-            <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
-            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
-            <p><i>Last updated 08/01/2023.</i></p>
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
+            <p>The following materials are available:</p>
+            <a href="https://drive.google.com/file/d/1RMAFEwRUe0hVq-muyixxthxOdskTo6jQ/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/10PcwmdrN1BDH7BYfRsJhmeO9pu33mgTj/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
+            <p><i>Last updated 08/03/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showExample73}>
@@ -108,12 +108,12 @@
     <Modal bind:showModal = {showExample76}>
         <center>
             <p><b><span style="font-size: 24px">Example 7.6</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
-            <!-- <p>The following materials are available:</p> -->
-            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
-            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
-            <p><i>Last updated 07/30/2023.</i></p>
-        </center>  
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
+            <p>The following materials are available:</p>
+            <a href="https://drive.google.com/file/d/1D_xyrC7EUzQ2WjJaIHAAP29IW9kmg1H6/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/1Hg53ue8F3k2D0xmC2S_7_RkuwMwlEohN/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
+            <p><i>Last updated 08/04/2023.</i></p>
+        </center>
     </Modal>
     <Modal bind:showModal = {showExample84}>
         <center>

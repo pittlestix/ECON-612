@@ -31,6 +31,7 @@
             <a on:click={() => (showOldMoneyCreation = true)}>Old Money Creation</a><span style="color: #FF628B">*</span> (from slides)
         </p>
         <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content is from the previous academic year and has not been updated to reflect this year's lecture content. This is likely due to the content not yet being covered.</span></p>
+        
     </td>
     </tr>
     </table>
