@@ -13,11 +13,9 @@
 
 		<!-- For Class -->
 
-		<p><center><b><span style="font-size: 24px">Today's Materials</span></b></center></p>
-    <center><a href="https://drive.google.com/file/d/1wz5OTrEJ-lmYLc2QL_MeFjBhr4Jd2VZN/view?usp=share_link" target="_blank"><button class="button button1"><b>Blank</b></button></a></center>
-    <center><a href="https://drive.google.com/file/d/1Oef3LHwpl4JWO2orPyyUpML2_QhqbemX/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a></center>
-    <center><a href="https://drive.google.com/file/d/1wjukdtcaBgvuYpJYXFVW85IigzVvhtoD/view?usp=share_link" target="_blank"><button class="button button1"><b>All Questions</b></button></a></center>
-    <center><a href="https://drive.google.com/file/d/13rx2SZzzULU6mcNRxUoEX55Sr9un_rIX/view?usp=share_link" target="_blank"><button class="button button1"><b>All Solutions</b></button></a></center>
+		<p><center><b><span style="font-size: 24px">09/05</span></b></center></p>
+    <center><a href="https://drive.google.com/file/d/1RwP-aPx4V2BrgInxmN9UbGMKpnAyuRuk/view?usp=share_link" target="_blank"><button class="button button1"><b>Discussion</b></button></a></center>
+    <center><a href="https://drive.google.com/file/d/13rx2SZzzULU6mcNRxUoEX55Sr9un_rIX/view?usp=share_link" target="_blank"><button class="button button1"><b>Homework 1</b></button></a></center>
 		
 		<!-- <h1><center>ECON 612 Examples & Solutions</center></h1> -->
 		
