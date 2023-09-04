@@ -18,7 +18,7 @@
 
 <!-- For class -->
 
-<body class = "slay">
+<!-- <body class = "slay">
 <table align="center" width="900px" cellpadding="60px">
 <tr>
 <td class = "yuh">
@@ -30,4 +30,4 @@
 </td>
 </tr>
 </table>
-</body>
+</body> -->
