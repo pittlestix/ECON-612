@@ -10,9 +10,9 @@
 		<table align="center" width="900px" cellpadding="60px">
 		<tr>
 		<td class = "yuh">
-		<p>The exam ends at 7pm.
+		<p><span style = "font: 48px">The exam ends at 7pm.
 			<br>
-			Raise your hand if you have a question.
+			Raise your hand if you have a question.</span>
 		</p>
 		<!-- <h1><center>ECON 612 Examples & Solutions</center></h1> -->
 		
