@@ -10,13 +10,10 @@
 		<table align="center" width="900px" cellpadding="60px">
 		<tr>
 		<td class = "yuh">
-
-		<!-- For Class -->
-
-		<p><center><b><span style="font-size: 24px">09/05</span></b></center></p>
-    <center><a href="https://drive.google.com/file/d/1RwP-aPx4V2BrgInxmN9UbGMKpnAyuRuk/view?usp=share_link" target="_blank"><button class="button button1"><b>Discussion</b></button></a></center>
-    <center><a href="https://drive.google.com/file/d/13rx2SZzzULU6mcNRxUoEX55Sr9un_rIX/view?usp=share_link" target="_blank"><button class="button button1"><b>Homework 1</b></button></a></center>
-		
+		<p>The exam ends at 7pm.
+			<br>
+			Raise your hand if you have a question.
+		</p>
 		<!-- <h1><center>ECON 612 Examples & Solutions</center></h1> -->
 		
 		<!-- Navigation -->
