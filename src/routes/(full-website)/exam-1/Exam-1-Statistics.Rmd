@@ -1,3 +1,11 @@
+---
+title: "Exam 1 Results and Statistics"
+author: "Elise Rodríguez"
+output: html_document
+---
+
+hello daphnie :)
+
 ```{r Installing Packages, include = FALSE}
 install.packages("here", repos = "http://cran.us.r-project.org")
 library(here)
@@ -8,13 +16,11 @@ library(zoo)
 ```
 
 ```{r IMPORT: Grades, include = FALSE}
-data_cnv <- read.csv(here("./src/routes/(full-website)/exam-1/Data/Gradebook_Sep_20.csv"))
+data_cnv <- read.csv(here("./src/routes/(full-website)/exam-1/Data/Gradebook_Sep_20.csv")) # nolint
 data_cnv <- data_cnv[-1, ] # Removing Possible Points row
 data_cnv <- data_cnv[-61, ] # Removing Test Student
 data_cnv <- data_cnv[, -2] # Removing ID column
 data_cnv <- data_cnv[-c(3:ncol(data_cnv))] # Leaving only name and UIN
-
-View(data_cnv)
 ```
 
 ```{r CREATE: Missed Questions, include = FALSE}
@@ -80,7 +86,5 @@ data_mis[44, ] <- 1
 data_mis[45, ] <- 00
 data_mis[46, ] <- 00
 data_mis[47, ] <- 00
-
-View(data_mis)
 ```
 
