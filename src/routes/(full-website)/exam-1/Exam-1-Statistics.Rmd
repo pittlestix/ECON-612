@@ -1,0 +1,86 @@
+```{r Installing Packages, include = FALSE}
+install.packages("here", repos = "http://cran.us.r-project.org")
+library(here)
+install.packages("xts", repos = "http://cran.us.r-project.org")
+library(xts)
+install.packages("zoo", repos = "http://cran.us.r-project.org")
+library(zoo)
+```
+
+```{r IMPORT: Grades, include = FALSE}
+data_cnv <- read.csv(here("./src/routes/(full-website)/exam-1/Data/Gradebook_Sep_20.csv"))
+data_cnv <- data_cnv[-1, ] # Removing Possible Points row
+data_cnv <- data_cnv[-61, ] # Removing Test Student
+data_cnv <- data_cnv[, -2] # Removing ID column
+data_cnv <- data_cnv[-c(3:ncol(data_cnv))] # Leaving only name and UIN
+
+View(data_cnv)
+```
+
+```{r CREATE: Missed Questions, include = FALSE}
+data_mis <- matrix(NA, ncol = 1, nrow = 50)
+
+# Page 1 True/False
+data_mis[1, ] <- 32
+data_mis[2, ] <- 11
+data_mis[3, ] <- 0
+data_mis[4, ] <- 5
+data_mis[5, ] <- 12
+data_mis[6, ] <- 22
+
+# Page 2 True/False
+data_mis[7, ] <- 20
+data_mis[8, ] <- 0
+data_mis[9, ] <- 18
+data_mis[10, ] <- 13
+data_mis[11, ] <- 12
+data_mis[12, ] <- 11
+data_mis[13, ] <- 2
+data_mis[14, ] <- 9
+data_mis[15, ] <- 1
+
+# Page 3 Multiple Choice
+data_mis[16, ] <- 1
+data_mis[17, ] <- 13
+data_mis[18, ] <- 12
+data_mis[19, ] <- 15
+data_mis[20, ] <- 45
+
+# Page 4 Multiple Choice
+data_mis[21, ] <- 6
+data_mis[22, ] <- 4
+data_mis[23, ] <- 2
+data_mis[24, ] <- 10
+data_mis[25, ] <- 2
+
+# Page 5 Matching Part 1
+data_mis[26, ] <- 0
+data_mis[27, ] <- 0
+data_mis[28, ] <- 3
+data_mis[29, ] <- 0
+data_mis[30, ] <- 0
+data_mis[31, ] <- 0
+data_mis[32, ] <- 0
+data_mis[33, ] <- 3
+data_mis[34, ] <- 0
+
+# Page 5 Matching Part 2
+data_mis[35, ] <- 4
+data_mis[36, ] <- 24
+data_mis[37, ] <- 8
+data_mis[38, ] <- 2
+data_mis[39, ] <- 27
+data_mis[40, ] <- 17
+data_mis[41, ] <- 24
+data_mis[42, ] <- 17
+data_mis[43, ] <- 3
+data_mis[44, ] <- 1
+
+# Page 6 Cost Evaluation
+data_mis[45, ] <- 00
+data_mis[46, ] <- 00
+data_mis[47, ] <- 00
+
+View(data_mis)
+```
+
