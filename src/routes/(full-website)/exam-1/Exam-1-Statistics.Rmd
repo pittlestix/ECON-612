@@ -13,6 +13,8 @@ install.packages("zoo", repos = "http://cran.us.r-project.org")
 library(zoo)
 install.packages("ggplot2", repos = "http://cran.us.r-project.org")
 library(ggplot2)
+install.packages("knitr", repos = "http://cran.us.r-project.org")
+library(knitr) # for tables (kable function)
 ```
 
 ```{r IMPORT: Grades, include = FALSE}
@@ -260,31 +262,41 @@ val_fin_obs <- round(sum(!is.na(data_all[3])), digits = 1)
 
 The first exam was taken by `r val_fin_obs` students. The raw score average (without extra credit) was `r val_raw_avg` and the final score average (with extra credit) was `r val_fin_avg`.
 
-The figure below plots the grade distribution for the class. The raw scores are plotted in <b><span style = "color: #000000">black</span></b> and the final scores are plotted in <b><span style = "color: #f3f3f3">gray</span></b>.
+The figure below plots the frequency distribution of raw scores. Raw scores are a measure of exam performance.
 
 ```{r PLOT: Grade Distribution, include = TRUE, echo = FALSE}
-# plot_grd_dis_raw <- data_all[2]
+# Creating data for plot
+plot_grd_raw <- matrix(1, nrow = nrow(data_all), ncol = 2)
 
-# hist(data_all[2], main = "Grade Distribution", xlab = "Grade", ylab = "Frequency", col = "blue", breaks = 0, xlim = c(0, 100))
+for (i in nrow(plot_grd_raw):1) {
+    plot_grd_raw[i, 1] <- data_all[i, 2]
+}
 
+plot_grd_raw <- plot_grd_raw[order(plot_grd_raw[, 1]), ]
 
-# ggplot(plot_grd_dis, aes(x = frequency(`Raw`))) +
-#     geom_bar()
+plot_grd_raw_obs <- unique(plot_grd_raw)
 
-# ggplot(plot_grd_dis, aes(x = plot_grd_dis[1], y = plot_grd_dis[2], size = 2) +
-#     geom_point(color = color_gini) +
-#     ggtitle("Grade Distribution") +
-#     ggeasy::easy_center_title() +
-#     xlim(0, 100) +
-#     ylim(0, 100) +
-#     xlab("R&D Expenditure") +
-#     ylab("Gini Index") +
-#     geom_smooth(
-#         aes(x = plot_grd_dis[1], y = plot_grd_dis[2]),
-#         method = lm, se = TRUE,
-#         color = color_trendline
-#     ) +
-#     theme(aspect.ratio = 2.625 / 3.75))
+for (i in nrow(plot_grd_raw_obs):1) {
+    plot_grd_raw_obs[i, 2] <- sum(plot_grd_raw[1:val_raw_obs, 1] == plot_grd_raw_obs[i, 1])
+}
+
+plot_grd_raw <- data.frame(
+    Score = plot_grd_raw_obs[1:32, 1],
+    Obs = plot_grd_raw_obs[1:32, 2]
+)
+
+# De-Cluttering the Global Environment
+rm(plot_grd_raw_obs)
+
+# Making the plot
+ggplot(plot_grd_raw, aes(x = factor(plot_grd_raw[, 1]), y = factor(plot_grd_raw[, 2]), fill = factor(plot_grd_raw[, 1]))) +
+    geom_bar(stat = "identity") +
+    ggtitle("Grade Distribution (Raw)") +
+    ggeasy::easy_center_title() +
+    theme(aspect.ratio = 5.25 / 7.5, legend.position = "none", axis.text.x = element_text(size = 4)) +
+    scale_fill_manual(values = c("#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848", "#484848")) +
+    xlab("Question") +
+    ylab("Number of Instances")
 ```
 
 ## Most Missed Questions
@@ -362,11 +374,72 @@ plot_data_mis <- data.frame(
 
 ggplot(plot_data_mis, aes(x = factor(plot_data_mis[, 1]), y = factor(plot_data_mis[, 2]), fill = factor(plot_data_mis[, 1]))) +
     geom_bar(stat = "identity") +
-    geom_hline(yintercept = 30) +
+    geom_hline(yintercept = 17) +
     ggtitle("Instances of No or Partial Credit") +
     ggeasy::easy_center_title() +
-    theme(aspect.ratio = 5.25 / 7.5, legend.position = "none") +
+    theme(aspect.ratio = 5.25 / 7.5, legend.position = "none", axis.text.x = element_text(size = 4)) +
     scale_fill_manual(values = plot_data_mis[, 3]) +
     xlab("Question") +
     ylab("Number of Instances")
 ```
+
+#### Summary
+
+Below is a list of the most missed questions along with the number of instances of no/partial credit associated with them. "Most missed" refers to 20 or more students not receiving full credit.
+
+```{r TABLE: Most Missed Questions, include = TRUE, echo = FALSE}
+table_mis <- matrix(NA, nrow = 12, ncol = 3)
+
+table_mis[1, ] <- c("True/False #1", "1", data_mis[1, ])
+table_mis[2, ] <- c("True/False #7", "2", data_mis[7, ])
+table_mis[3, ] <- c("Multiple Choice #20", "3", data_mis[20, ])
+table_mis[4, ] <- c("Matching #2 (Part 2)", "5", data_mis[36, ])
+table_mis[5, ] <- c("Matching #5 (Part 2)", "5", data_mis[39, ])
+table_mis[6, ] <- c("Matching #7 (Part 2)", "5", data_mis[41, ])
+table_mis[7, ] <- c("Cost Evaluation #3", "6", data_mis[47, ])
+table_mis[8, ] <- c("Adverse Selection #1", "7", data_mis[48, ])
+table_mis[9, ] <- c("Adverse Selection #2", "7", data_mis[49, ])
+table_mis[10, ] <- c("Adverse Selection #3", "7", data_mis[50, ])
+table_mis[11, ] <- c("Essay", "8", data_mis[51, ])
+table_mis[12, ] <- c("Bonus", "8", data_mis[52, ])
+
+colnames(table_mis) <- c("Question", "Page", "Missed")
+
+# View(table_mis)
+
+# Creating the table
+kable(
+    x = table_mis,
+    row.names = NA,
+    col.names = colnames(table_mis),
+    align = c("l", "c", "r"),
+    caption = NULL,
+    label = NULL,
+    format.args = list(),
+    escape = TRUE
+)
+```
+
+<p><span style = "font-size: 6pt">True/False #6 (Page 1) is not included in the table above because it was voided before grading.</span></p>
+
+## Grading Guidelines
+
+For the True/False and Multiple Choice sections, 2 points were subtracted for each wrong answer.
+
+For the Matching section (both parts), 1 point was subtracted for each wrong answer.
+
+For the Cost Evaluation section, each question had different criteria:
+
+* For Part 1, 2 points were subtracted if the calculation was incorrect (calculated for both groups instead).
+* For Part 2, 2 points were subtracted if the calculation was incorrect (calculated for both groups instead).
+* For Part 3, 2 points were subtracted if the answer was incorrect and did not apply to the question. 1 point was subtracted if the answer was lacking a component or the answer explained itself well, but did not answer the question as desired.
+
+For the Adverse Selection section, each question had different criteria:
+
+* For Part 1, 2 points were subtracted if the range(s) provided were incorrect. 1 point was subtracted if the answer indicated that lemons would be sold.
+* For Part 2, 1 point was removed for incorrect answers for each of the following components of the question: Yes/No identified, price, type of car(s) sold.
+* For Part 3, 2 points were subtracted if the calulation was incorrect. 1 point was subtracted if the question was partially correct or the threshold was properly calculated but the ranges were misidentified.
+
+For the Essay section, 2.5 points were subtracted for each missing negative/positive. 1 point was subtracted for a lack of explanation.
+
+For the Bonus, 5 points were awarded if the answer was correct.
