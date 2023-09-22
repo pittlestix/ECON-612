@@ -367,7 +367,7 @@ pre code {
 </div>
 <div id="most-missed-questions" class="section level2">
 <h2>Most Missed Questions</h2>
-<p>Below is a bar graph depicting the number of instances a question was missed/not asnwered fully correctly. The bars are arranged from left to right by question order. Each section of the exam has its own color:</p>
+<p>Below is a bar graph depicting the number of instances a question was missed/not answered fully correctly. The bars are arranged from left to right by question order. Each section of the exam has its own color:</p>
 <ul>
 <li>The True/False questions are plotted in <b><span style="color: #bf1818">red</span></b>.</li>
 <li>The Multiple Choice questions are plotted in <b><span style="color: #e4770b">orange</span></b>.</li>
@@ -470,7 +470,7 @@ pre code {
 <p>For the Adverse Selection section, each question had different criteria:</p>
 <ul>
 <li>For Part 1, 2 points were subtracted if the range(s) provided were incorrect. 1 point was subtracted if the answer indicated that lemons would be sold.</li>
-<li>For Part 2, 1 point was removed for incorrect answers for each of the following components of the question: Yes/No identified, price, type of car(s) sold.</li>
+<li>For Part 2, 1 point was removed for incorrect answers for each of the following components of the question: Yes/No identification, price, type of car(s) sold.</li>
 <li>For Part 3, 2 points were subtracted if the calulation was incorrect. 1 point was subtracted if the question was partially correct or the threshold was properly calculated but the ranges were misidentified.</li>
 </ul>
 <p>For the Essay section, 2.5 points were subtracted for each missing negative/positive. 1 point was subtracted for a lack of explanation.</p>
