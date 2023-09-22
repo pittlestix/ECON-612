@@ -478,7 +478,7 @@ pre code {
 </div>
 <div id="requested-papers" class="section level2">
 <h2>Requested Papers</h2>
-<p>Click to view the <a href="https://drive.google.com/file/d/1lIJ6kGYJJWDl_2Huwm2aGtdciv4nIp3c/view?usp=share_link">High B paper</a> or the <a href="https://drive.google.com/file/d/1JB-yEP7LJp3_JvXenlGQ2lMTaYg9FK0B/view?usp=share_link">High C paper</a>.</p>
+<p>Click to view the <a href="https://drive.google.com/file/d/1lIJ6kGYJJWDl_2Huwm2aGtdciv4nIp3c/view?usp=share_link">High B paper</a> (89) or the <a href="https://drive.google.com/file/d/1JB-yEP7LJp3_JvXenlGQ2lMTaYg9FK0B/view?usp=share_link">High C paper</a> (78.5).</p>
 </div>
 
 
