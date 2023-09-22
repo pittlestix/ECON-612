@@ -470,6 +470,26 @@ pre code {
 </div>
 <div id="creating-lags-for-rd" class="section level3">
 <h3>Creating Lags for R&amp;D</h3>
+<pre><code>## 
+## Call:
+## lm(formula = gini ~ rad + lg1 + lg2 + lg3 + lg4 + lg5 + lg6 + 
+##     lg7 + lg8 + lg9 + lg10, data = data_reg_rad_gini)
+## 
+## Coefficients:
+## (Intercept)          rad          lg1          lg2          lg3          lg4  
+##     35.7427      -1.9503       1.6521      -1.2869       2.9384      -1.8695  
+##         lg5          lg6          lg7          lg8          lg9         lg10  
+##      0.2550      -0.1284      -0.2760      -0.2225       2.0052      -2.6804</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = unp ~ rad + lg1 + lg2 + lg3 + lg4 + lg5 + lg6 + 
+##     lg7 + lg8 + lg9 + lg10, data = data_reg_rad_unp)
+## 
+## Coefficients:
+## (Intercept)          rad          lg1          lg2          lg3          lg4  
+##      8.5697      -0.3433       1.4548       1.0184      -0.6900       0.2220  
+##         lg5          lg6          lg7          lg8          lg9         lg10  
+##      0.1257      -2.7676       0.3914      -1.2012       0.6479       0.3251</code></pre>
 </div>
 </div>
 <div id="plotting-our-data" class="section level2">
