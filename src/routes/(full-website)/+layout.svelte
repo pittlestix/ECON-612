@@ -10,7 +10,7 @@
 		<table align="center" width="900px" cellpadding="60px">
 		<tr>
 		<td class = "yuh">
-		<h1><center>ECON 612</center></h1>
+		<h1><center>NAVIGATE</center></h1>
 		</td>
 		</tr>
 		</table>
