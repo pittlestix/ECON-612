@@ -450,15 +450,7 @@ pre code {
 </tr>
 </tbody>
 </table>
-<p>We included the average in this categorization process.</p>
-</div>
-<div id="possibly-excluding-countries" class="section level3">
-<h3>Possibly Excluding Countries</h3>
-<p>In this section, we are considering exlcuding countries based on the two criteria below:</p>
-<ol style="list-style-type: decimal">
-<li>Fewer than 5 observations</li>
-<li>No data in the past five years</li>
-</ol>
+<p>We have also calculated some basic statistics for the R&amp;D expenditure and Gini Index crossover. This will be more relevant when it comes to regressions:</p>
 </div>
 <div id="subsetting-by-number-of-observations" class="section level3">
 <h3>Subsetting by Number of Observations</h3>
@@ -473,6 +465,9 @@ pre code {
 </div>
 <div id="creating-lags-for-rd" class="section level3">
 <h3>Creating Lags for R&amp;D</h3>
+</div>
+<div id="running-regressions" class="section level3">
+<h3>Running Regressions</h3>
 <div id="regression-gini-and-rd" class="section level4">
 <h4>Regression: Gini and R&amp;D</h4>
 <pre><code>## 
@@ -495,6 +490,37 @@ pre code {
 ##     35.7427      -1.9503       1.6521      -1.2869       2.9384      -1.8695  
 ##         lg5          lg6          lg7          lg8          lg9         lg10  
 ##      0.2550      -0.1284      -0.2760      -0.2225       2.0052      -2.6804</code></pre>
+</div>
+<div id="regression-gini-and-rd-rd-summation-varying-lags" class="section level4">
+<h4>Regression: Gini and R&amp;D, R&amp;D Summation (Varying Lags)</h4>
+<pre><code>## 
+## Call:
+## lm(formula = gini ~ rad + sm1, data = data_reg_gini_rad_sum)
+## 
+## Coefficients:
+## (Intercept)          rad          sm1  
+##      39.147       -3.120        0.231</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = gini ~ rad + sm1 + sm3, data = data_reg_gini_rad_sum)
+## 
+## Coefficients:
+## (Intercept)          rad          sm1          sm3  
+##      38.205       -2.735        3.255       -1.007</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = gini ~ rad + sm1 + sm3 + sm5, data = data_reg_gini_rad_sum)
+## 
+## Coefficients:
+## (Intercept)          rad          sm1          sm3          sm5  
+##     37.2561      -2.5798      -0.4137       3.5898      -1.9831</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = gini ~ rad + sm1 + sm3 + sm5 + sm10, data = data_reg_gini_rad_sum)
+## 
+## Coefficients:
+## (Intercept)          rad          sm1          sm3          sm5         sm10  
+##     35.7279      -1.8977       0.4811       0.7973       0.0525      -0.2750</code></pre>
 </div>
 <div id="regression-unemployment-and-rd" class="section level4">
 <h4>Regression: Unemployment and R&amp;D</h4>
