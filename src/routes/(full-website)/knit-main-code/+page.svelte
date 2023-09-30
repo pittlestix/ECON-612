@@ -376,6 +376,55 @@ pre code {
 <li><code>data_gni</code> (GNI)</li>
 <li><code>data_gni_pca</code> (GNI per Capita)</li>
 </ul>
+<div id="descriptive-statistics" class="section level4">
+<h4>Descriptive statistics</h4>
+<table>
+<colgroup>
+<col width="12%" />
+<col width="13%" />
+<col width="18%" />
+<col width="20%" />
+<col width="18%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="center">Observations</th>
+<th align="center">Mean</th>
+<th align="center">Minimum</th>
+<th align="center">Median</th>
+<th align="right">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Gini Index</td>
+<td align="center">1936</td>
+<td align="center">37.9728305785124</td>
+<td align="center">20.7</td>
+<td align="center">35.8</td>
+<td align="right">65.8</td>
+</tr>
+<tr class="even">
+<td align="left">Unemployment</td>
+<td align="center">5978</td>
+<td align="center">8.15231080628973</td>
+<td align="center">0.095</td>
+<td align="center">6.545</td>
+<td align="right">38.8</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D</td>
+<td align="center">2148</td>
+<td align="center">0.940684100714238</td>
+<td align="center">0.00543999997898936</td>
+<td align="center">0.577264994382858</td>
+<td align="right">5.43561983108521</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="creating-sub-groups-based-on-gni-per-capita" class="section level3">
 <h3>Creating Sub-Groups Based on GNI per Capita</h3>
