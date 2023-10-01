@@ -523,9 +523,21 @@ pre code {
 ## Call:
 ## lm(formula = gini ~ log(rad), data = data_reg_rad_gini)
 ## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -15.4443  -4.2495  -0.8451   3.5120  29.0246 
+## 
 ## Coefficients:
-## (Intercept)     log(rad)  
-##      34.903       -3.343</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  34.9028     0.2218  157.39   &lt;2e-16 ***
+## log(rad)     -3.3426     0.1944  -17.19   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 7.314 on 1189 degrees of freedom
+##   (12480 observations deleted due to missingness)
+## Multiple R-squared:  0.1991, Adjusted R-squared:  0.1984 
+## F-statistic: 295.5 on 1 and 1189 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 <div id="regression-gini-and-rd-lags" class="section level4">
 <h4>Regression: Gini and R&amp;D (Lags)</h4>
@@ -535,11 +547,31 @@ pre code {
 ##     log(lg4) + log(lg5) + log(lg6) + log(lg7) + log(lg8) + log(lg9) + 
 ##     log(lg10), data = data_reg_rad_gini)
 ## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -11.8738  -4.3597  -0.6633   2.2150  28.8622 
+## 
 ## Coefficients:
-## (Intercept)     log(rad)     log(lg1)     log(lg2)     log(lg3)     log(lg4)  
-##     33.3535       0.9003       1.6258      -2.7601       2.4538      -3.2965  
-##    log(lg5)     log(lg6)     log(lg7)     log(lg8)     log(lg9)    log(lg10)  
-##      2.8596      -1.9082       1.6125      -1.5659       0.6288      -2.7959</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  33.3535     0.2788 119.613   &lt;2e-16 ***
+## log(rad)      0.9003     2.4374   0.369    0.712    
+## log(lg1)      1.6258     3.4922   0.466    0.642    
+## log(lg2)     -2.7601     3.3999  -0.812    0.417    
+## log(lg3)      2.4538     3.4158   0.718    0.473    
+## log(lg4)     -3.2965     3.4961  -0.943    0.346    
+## log(lg5)      2.8596     3.7315   0.766    0.444    
+## log(lg6)     -1.9082     3.6507  -0.523    0.601    
+## log(lg7)      1.6125     3.6391   0.443    0.658    
+## log(lg8)     -1.5659     3.4910  -0.449    0.654    
+## log(lg9)      0.6288     3.4058   0.185    0.854    
+## log(lg10)    -2.7959     2.4052  -1.162    0.245    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.502 on 650 degrees of freedom
+##   (13009 observations deleted due to missingness)
+## Multiple R-squared:  0.08141,    Adjusted R-squared:  0.06586 
+## F-statistic: 5.237 on 11 and 650 DF,  p-value: 6.086e-08</code></pre>
 </div>
 <div id="regression-gini-and-rd-rd-summation-varying-lags" class="section level4">
 <h4>Regression: Gini and R&amp;D, R&amp;D Summation (Varying Lags)</h4>
@@ -547,16 +579,42 @@ pre code {
 ## Call:
 ## lm(formula = gini ~ log(rad) + log(sm5), data = data_reg_gini_rad_sum)
 ## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -13.153  -4.570  -0.813   2.741  28.975 
+## 
 ## Coefficients:
-## (Intercept)     log(rad)     log(sm5)  
-##      42.231        2.301       -5.019</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   42.231      2.246  18.800  &lt; 2e-16 ***
+## log(rad)       2.301      1.395   1.650 0.099265 .  
+## log(sm5)      -5.019      1.425  -3.522 0.000449 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.974 on 896 degrees of freedom
+##   (12772 observations deleted due to missingness)
+## Multiple R-squared:  0.1154, Adjusted R-squared:  0.1134 
+## F-statistic: 58.42 on 2 and 896 DF,  p-value: &lt; 2.2e-16</code></pre>
 <pre><code>## 
 ## Call:
 ## lm(formula = gini ~ log(rad) + log(sm10), data = data_reg_gini_rad_sum)
 ## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -11.5748  -4.4294  -0.7355   2.4235  28.8774 
+## 
 ## Coefficients:
-## (Intercept)     log(rad)    log(sm10)  
-##      43.935        2.322       -4.532</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   43.935      2.802  15.680  &lt; 2e-16 ***
+## log(rad)       2.322      1.171   1.983 0.047825 *  
+## log(sm10)     -4.532      1.247  -3.633 0.000302 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.477 on 659 degrees of freedom
+##   (13009 observations deleted due to missingness)
+## Multiple R-squared:  0.07586,    Adjusted R-squared:  0.07305 
+## F-statistic: 27.05 on 2 and 659 DF,  p-value: 5.142e-12</code></pre>
 </div>
 <div id="regression-unemployment-and-rd" class="section level4">
 <h4>Regression: Unemployment and R&amp;D</h4>
@@ -564,9 +622,21 @@ pre code {
 ## Call:
 ## lm(formula = unp ~ rad, data = data_reg_rad_unp)
 ## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -8.242 -3.601 -1.286  2.201 28.764 
+## 
 ## Coefficients:
-## (Intercept)          rad  
-##      8.7131      -0.6895</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   8.7131     0.1694  51.435  &lt; 2e-16 ***
+## rad          -0.6895     0.1259  -5.477 4.83e-08 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 5.523 on 2116 degrees of freedom
+##   (11553 observations deleted due to missingness)
+## Multiple R-squared:  0.01398,    Adjusted R-squared:  0.01351 
+## F-statistic:    30 on 1 and 2116 DF,  p-value: 4.83e-08</code></pre>
 </div>
 <div id="regression-unemployment-and-rd-lags" class="section level4">
 <h4>Regression: Unemployment and R&amp;D (Lags)</h4>
@@ -575,11 +645,31 @@ pre code {
 ## lm(formula = unp ~ rad + lg1 + lg2 + lg3 + lg4 + lg5 + lg6 + 
 ##     lg7 + lg8 + lg9 + lg10, data = data_reg_rad_unp)
 ## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -7.423 -3.100 -1.061  1.568 26.948 
+## 
 ## Coefficients:
-## (Intercept)          rad          lg1          lg2          lg3          lg4  
-##      8.5697      -0.3433       1.4548       1.0184      -0.6900       0.2220  
-##         lg5          lg6          lg7          lg8          lg9         lg10  
-##      0.1257      -2.7676       0.3914      -1.2012       0.6479       0.3251</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   8.5697     0.2612  32.807   &lt;2e-16 ***
+## rad          -0.3433     1.8605  -0.185    0.854    
+## lg1           1.4548     2.9793   0.488    0.625    
+## lg2           1.0184     3.0028   0.339    0.735    
+## lg3          -0.6900     2.9039  -0.238    0.812    
+## lg4           0.2220     2.9055   0.076    0.939    
+## lg5           0.1257     3.0002   0.042    0.967    
+## lg6          -2.7676     2.9732  -0.931    0.352    
+## lg7           0.3914     2.9738   0.132    0.895    
+## lg8          -1.2012     2.9471  -0.408    0.684    
+## lg9           0.6479     2.9192   0.222    0.824    
+## lg10          0.3251     1.9494   0.167    0.868    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 4.988 on 863 degrees of freedom
+##   (12796 observations deleted due to missingness)
+## Multiple R-squared:  0.02984,    Adjusted R-squared:  0.01747 
+## F-statistic: 2.413 on 11 and 863 DF,  p-value: 0.005894</code></pre>
 </div>
 <div id="regression-unemployment-and-rd-rd-summation-varying-lags" class="section level4">
 <h4>Regression: Unemployment and R&amp;D, R&amp;D Summation (Varying Lags)</h4>
@@ -587,36 +677,91 @@ pre code {
 ## Call:
 ## lm(formula = unp ~ rad + sm5, data = data_reg_unp_rad_sum)
 ## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -7.920 -3.246 -1.160  1.667 28.787 
+## 
 ## Coefficients:
-## (Intercept)          rad          sm5  
-##     8.66240     -1.02681      0.07483</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  8.66240    0.21343  40.586   &lt;2e-16 ***
+## rad         -1.02681    0.95606  -1.074    0.283    
+## sm5          0.07483    0.20112   0.372    0.710    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 5.163 on 1301 degrees of freedom
+##   (12367 observations deleted due to missingness)
+## Multiple R-squared:  0.01753,    Adjusted R-squared:  0.01602 
+## F-statistic: 11.61 on 2 and 1301 DF,  p-value: 1.009e-05</code></pre>
 <pre><code>## 
 ## Call:
 ## lm(formula = unp ~ rad + sm10, data = data_reg_unp_rad_sum)
 ## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -7.135 -3.134 -1.074  1.648 27.075 
+## 
 ## Coefficients:
-## (Intercept)          rad         sm10  
-##      8.5821       1.4440      -0.2308</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  8.58214    0.25996  33.014  &lt; 2e-16 ***
+## rad          1.44396    0.80215   1.800  0.07219 .  
+## sm10        -0.23084    0.08764  -2.634  0.00859 ** 
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 4.974 on 872 degrees of freedom
+##   (12796 observations deleted due to missingness)
+## Multiple R-squared:  0.02529,    Adjusted R-squared:  0.02305 
+## F-statistic: 11.31 on 2 and 872 DF,  p-value: 1.412e-05</code></pre>
 </div>
 <div id="regression-gini-and-rd-dummies" class="section level4">
 <h4>Regression: Gini and R&amp;D, dummies</h4>
+<p>The coefficient on Dhic should be NA.</p>
 <pre><code>## 
 ## Call:
-## lm(formula = gini ~ log(rad) + Dlic + Dmic + Dhic, data = data_reg_gini_rad_dmmy)
+## lm(formula = gini ~ log(rad) + Dlic + Dmic, data = data_reg_gini_rad_dmmy)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -15.4510  -4.2749  -0.6785   3.2654  27.6334 
 ## 
 ## Coefficients:
-## (Intercept)     log(rad)         Dlic         Dmic         Dhic  
-##      34.057       -2.597        3.792        2.432           NA</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  34.0572     0.2924 116.482  &lt; 2e-16 ***
+## log(rad)     -2.5967     0.2562 -10.134  &lt; 2e-16 ***
+## Dlic          3.7916     1.8974   1.998   0.0459 *  
+## Dmic          2.4316     0.5622   4.325 1.65e-05 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 7.26 on 1187 degrees of freedom
+##   (12480 observations deleted due to missingness)
+## Multiple R-squared:  0.2122, Adjusted R-squared:  0.2102 
+## F-statistic: 106.5 on 3 and 1187 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 <div id="regression-unemployment-and-rd-dummies" class="section level4">
 <h4>Regression: Unemployment and R&amp;D, dummies</h4>
 <pre><code>## 
 ## Call:
-## lm(formula = unp ~ rad + Dlic + Dmic + Dhic, data = data_reg_unp_rad_dmmy)
+## lm(formula = unp ~ rad + Dlic + Dmic, data = data_reg_unp_rad_dmmy)
+## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -8.894 -3.437 -1.073  2.054 28.096 
 ## 
 ## Coefficients:
-## (Intercept)          rad         Dlic         Dmic         Dhic  
-##      8.6355      -0.5357      -4.9282       0.7091      -0.4045</code></pre>
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   8.2492     0.2741  30.099  &lt; 2e-16 ***
+## rad          -0.5431     0.1487  -3.653 0.000265 ***
+## Dlic         -4.5402     0.6512  -6.972 4.16e-12 ***
+## Dmic          1.0987     0.2861   3.840 0.000127 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 5.415 on 2114 degrees of freedom
+##   (11553 observations deleted due to missingness)
+## Multiple R-squared:  0.05316,    Adjusted R-squared:  0.05182 
+## F-statistic: 39.56 on 3 and 2114 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
 </div>
