@@ -12,7 +12,7 @@
 <meta name="author" content="Binh Le, Elise Rodriguez, &amp; Daphnie Tian" />
 
 
-<title>Main Code</title>
+<title>Main Code?!</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
