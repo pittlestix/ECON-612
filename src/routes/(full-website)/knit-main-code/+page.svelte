@@ -502,8 +502,8 @@ pre code {
 </div>
 <div id="running-regressions" class="section level3">
 <h3>Running Regressions</h3>
-<div id="equation-1-y-_-t-beta-_-0-beta-_-1-ln-rd-_-t-epsilon" class="section level4">
-<h4>Equation 1: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {R\&amp;D} _ {t} + \epsilon\)</span></h4>
+<div id="equation-1-y-_-t-beta-_-0-beta-_-1-ln-rad-_-t-epsilon" class="section level4">
+<h4>Equation 1: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {RaD} _ {t} + \epsilon\)</span></h4>
 <pre><code>## 
 ## Call:
 ## lm(formula = gini ~ log(rad), data = data_gini_rad_lgs_all)
@@ -524,8 +524,8 @@ pre code {
 ## Multiple R-squared:  0.1991, Adjusted R-squared:  0.1984 
 ## F-statistic: 295.5 on 1 and 1189 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
-<div id="equation-2-y-_-t-beta-_-0-beta-_-1-ln-rd-_-t-beta-_-2-ln-sum-_-t--1-t--5-rd-_-t-epsilon" class="section level4">
-<h4>Equation 2: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {R\&amp;D} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -5} {R\&amp;D} _ {t} + \epsilon\)</span></h4>
+<div id="equation-2-y-_-t-beta-_-0-beta-_-1-ln-rad-_-t-beta-_-2-ln-sum-_-t--1-t--5-rad-_-t-epsilon" class="section level4">
+<h4>Equation 2: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {RaD} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -5} {RaD} _ {t} + \epsilon\)</span></h4>
 <pre><code>## 
 ## Call:
 ## lm(formula = gini ~ log(rad) + log(sm5), data = data_eq1)
@@ -547,8 +547,8 @@ pre code {
 ## Multiple R-squared:  0.1154, Adjusted R-squared:  0.1134 
 ## F-statistic: 58.42 on 2 and 896 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
-<div id="equation-3-y-_-t-beta-_-0-beta-_-1-ln-rd-_-t-beta-_-2-ln-sum-_-t--1-t--10-rd-_-t-epsilon" class="section level4">
-<h4>Equation 3: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {R\&amp;D} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -10} {R\&amp;D} _ {t} + \epsilon\)</span></h4>
+<div id="equation-3-y-_-t-beta-_-0-beta-_-1-ln-rad-_-t-beta-_-2-ln-sum-_-t--1-t--10-rad-_-t-epsilon" class="section level4">
+<h4>Equation 3: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {RaD} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -10} {RaD} _ {t} + \epsilon\)</span></h4>
 <pre><code>## 
 ## Call:
 ## lm(formula = gini ~ log(rad) + log(sm10), data = data_eq2)
@@ -570,8 +570,8 @@ pre code {
 ## Multiple R-squared:  0.07586,    Adjusted R-squared:  0.07305 
 ## F-statistic: 27.05 on 2 and 659 DF,  p-value: 5.142e-12</code></pre>
 </div>
-<div id="equation-4-y-_-t-beta-_-0-beta-_-1-ln-rd-_-t-beta-_-2-ln-sum-_-t--1-t--5-rd-_-t-beta-_-3-l-_-t-epsilon" class="section level4">
-<h4>Equation 4: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {R\&amp;D} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -5} {R\&amp;D} _ {t} + \beta _ {3} * L _ {t} + \epsilon\)</span></h4>
+<div id="equation-4-y-_-t-beta-_-0-beta-_-1-ln-rad-_-t-beta-_-2-ln-sum-_-t--1-t--5-rad-_-t-beta-_-3-l-_-t-epsilon" class="section level4">
+<h4>Equation 4: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {RaD} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -5} {RaD} _ {t} + \beta _ {3} * L _ {t} + \epsilon\)</span></h4>
 <pre><code>## 
 ## Call:
 ## lm(formula = gini ~ log(rad) + log(sm5) + edu, data = data_eq4)
@@ -594,8 +594,8 @@ pre code {
 ## Multiple R-squared:  0.1977, Adjusted R-squared:  0.1946 
 ## F-statistic: 62.84 on 3 and 765 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
-<div id="equation-5-y-_-t-beta-_-0-beta-_-1-ln-rd-_-t-beta-_-2-ln-sum-_-t--1-t--10-rd-_-t-beta-_-3-l-_-t-epsilon" class="section level4">
-<h4>Equation 5: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {R\&amp;D} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -10} {R\&amp;D} _ {t} + \beta _ {3} * L _ {t} + \epsilon\)</span></h4>
+<div id="equation-5-y-_-t-beta-_-0-beta-_-1-ln-rad-_-t-beta-_-2-ln-sum-_-t--1-t--10-rad-_-t-beta-_-3-l-_-t-epsilon" class="section level4">
+<h4>Equation 5: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {RaD} _ {t} + \beta _ {2} * \ln \sum _ {t = -1} ^ {t = -10} {RaD} _ {t} + \beta _ {3} * L _ {t} + \epsilon\)</span></h4>
 <pre><code>## 
 ## Call:
 ## lm(formula = gini ~ log(rad) + log(sm10) + edu, data = data_eq5)
@@ -618,8 +618,8 @@ pre code {
 ## Multiple R-squared:  0.1464, Adjusted R-squared:  0.1421 
 ## F-statistic: 33.79 on 3 and 591 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
-<div id="equation-6-y_t-beta_0-beta_1-ln-rd_t-beta_2-lic-beta_3-mic-epsilon" class="section level4">
-<h4>Equation 6: <span class="math inline">\(Y_{t} = \beta_{0} + \beta_{1} * \ln {R\&amp;D}_{t} + \beta_{2} * LIC + \beta_{3} * MIC + \epsilon\)</span></h4>
+<div id="equation-6-y-_-t-beta-_-0-beta-_-1-ln-rad-_-t-beta-_-2-lic-beta-_-3-mic-epsilon" class="section level4">
+<h4>Equation 6: <span class="math inline">\(Y _ {t} = \beta _ {0} + \beta _ {1} * \ln {RaD} _ {t} + \beta _ {2} * LIC + \beta _ {3} * MIC + \epsilon\)</span></h4>
 <p>The reference category is high-income.</p>
 <pre><code>## 
 ## Call:
