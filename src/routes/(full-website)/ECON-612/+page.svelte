@@ -7,7 +7,11 @@
 <table align="center" width="900px" cellpadding="60px">
 <tr>
 <td class = "yuh">
-    <p><i>Nothing yet.</i></p>
+    <p>
+		<center>
+			<i>Nothing yet.</i>
+		</center>
+	</p>
 </td>
 </tr>
 </table>
