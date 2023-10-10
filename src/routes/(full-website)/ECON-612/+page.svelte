@@ -9,7 +9,7 @@
 <td class = "yuh">
     <p>
 		<center>
-			<i>Nothing yet.</i>
+			<i>Nothing right now.</i>
 		</center>
 	</p>
 </td>
