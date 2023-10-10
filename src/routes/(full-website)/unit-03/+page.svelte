@@ -38,7 +38,7 @@
     <Modal bind:showModal = {showHomework6}>
         <center>
             <p><b><span style="font-size: 24px">Homework 6</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
@@ -48,7 +48,7 @@
     <Modal bind:showModal = {showHomework7}>
         <center>
             <p><b><span style="font-size: 24px">Homework 7</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
@@ -58,7 +58,7 @@
     <Modal bind:showModal = {showExample111}>
         <center>
             <p><b><span style="font-size: 24px">Example 11.1</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
@@ -68,7 +68,7 @@
     <Modal bind:showModal = {showExample112}>
         <center>
             <p><b><span style="font-size: 24px">Example 11.2</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
@@ -78,7 +78,7 @@
     <Modal bind:showModal = {showExample122}>
         <center>
             <p><b><span style="font-size: 24px">Example 12.2</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
@@ -88,7 +88,7 @@
     <Modal bind:showModal = {showDiamondDybvigGameTheoreticModel}>
         <center>
             <p><b><span style="font-size: 24px">Diamond-Dybvig Game Theoretic Model</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
@@ -98,7 +98,7 @@
     <Modal bind:showModal = {showUnderstandingBankRuns}>
         <center>
             <p><b><span style="font-size: 24px">Understanding Bank Runs</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please .</p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
