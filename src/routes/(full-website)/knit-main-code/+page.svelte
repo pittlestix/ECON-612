@@ -373,8 +373,9 @@ pre code {
 <li><code>data_gni_pca</code> (GNI per Capita)</li>
 <li><code>data_edu</code> (LFPR with Intermediate Education)</li>
 </ul>
-<div id="descriptive-statistics" class="section level4">
-<h4>Descriptive Statistics</h4>
+</div>
+<div id="descriptive-statistics" class="section level3">
+<h3>Descriptive Statistics</h3>
 <table>
 <colgroup>
 <col width="26%" />
@@ -421,7 +422,6 @@ pre code {
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 <div id="creating-sub-groups-based-on-gni-per-capita" class="section level3">
 <h3>Creating Sub-Groups Based on GNI per Capita</h3>
@@ -499,9 +499,76 @@ pre code {
 </div>
 <div id="creating-lags-and-summations-for-rd" class="section level3">
 <h3>Creating Lags and Summations for R&amp;D</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Category</th>
+<th align="center">Variable</th>
+<th align="right">Observations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">lag = 0</td>
+<td align="center">lg0</td>
+<td align="right">2148</td>
+</tr>
+<tr class="even">
+<td align="left">lag = 1</td>
+<td align="center">lg1</td>
+<td align="right">2148</td>
+</tr>
+<tr class="odd">
+<td align="left">lag = 2</td>
+<td align="center">lg2</td>
+<td align="right">2147</td>
+</tr>
+<tr class="even">
+<td align="left">lag = 3</td>
+<td align="center">lg3</td>
+<td align="right">2079</td>
+</tr>
+<tr class="odd">
+<td align="left">lag = 4</td>
+<td align="center">lg4</td>
+<td align="right">1990</td>
+</tr>
+<tr class="even">
+<td align="left">lag = 5</td>
+<td align="center">lg5</td>
+<td align="right">1900</td>
+</tr>
+<tr class="odd">
+<td align="left">lag = 6</td>
+<td align="center">lg6</td>
+<td align="right">1806</td>
+</tr>
+<tr class="even">
+<td align="left">lag = 7</td>
+<td align="center">lg7</td>
+<td align="right">1716</td>
+</tr>
+<tr class="odd">
+<td align="left">lag = 8</td>
+<td align="center">lg8</td>
+<td align="right">1615</td>
+</tr>
+<tr class="even">
+<td align="left">lag = 9</td>
+<td align="center">lg9</td>
+<td align="right">1524</td>
+</tr>
+<tr class="odd">
+<td align="left">lag = 10</td>
+<td align="center">lg10</td>
+<td align="right">1429</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="running-regressions" class="section level3">
 <h3>Running Regressions</h3>
+<p>I got rid of our old regressions. New ones will be here. :)</p>
 </div>
 </div>
 <div id="plotting-our-data" class="section level2">
