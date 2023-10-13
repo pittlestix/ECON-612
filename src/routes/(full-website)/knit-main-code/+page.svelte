@@ -566,46 +566,50 @@ pre code {
 </tbody>
 </table>
 <p>Each country’s GNI per capita (<code>gni_pca</code>) is based on its most recent observation. Each observation is measured in 2015 USD.</p>
-<p>Based on our observations, we find the categories have the following totals:</p>
+</div>
+<div id="creating-lags" class="section level3">
+<h3>Creating Lags</h3>
 <table>
 <thead>
 <tr class="header">
-<th align="left">Category</th>
-<th align="center">Variable</th>
-<th align="right">Observations</th>
+<th align="left">Lag</th>
+<th align="center">USA Observations</th>
+<th align="center">BRA Observations</th>
+<th align="right">UGA Observations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">low-income countries</td>
-<td align="center">lic</td>
-<td align="right">24</td>
+<td align="left">Lag = 0</td>
+<td align="center">25</td>
+<td align="center">20</td>
+<td align="right">10</td>
 </tr>
 <tr class="even">
-<td align="left">middle-income countries</td>
-<td align="center">mic</td>
-<td align="right">108</td>
+<td align="left">Lag = 1</td>
+<td align="center">25</td>
+<td align="center">20</td>
+<td align="right">10</td>
 </tr>
 <tr class="odd">
-<td align="left">high-income countries</td>
-<td align="center">hic</td>
-<td align="right">68</td>
+<td align="left">Lag = 2</td>
+<td align="center">25</td>
+<td align="center">20</td>
+<td align="right">10</td>
 </tr>
 <tr class="even">
-<td align="left">no observations</td>
-<td align="center">nob</td>
-<td align="right">17</td>
+<td align="left">Lag = 3</td>
+<td align="center">24</td>
+<td align="center">20</td>
+<td align="right">10</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="creating-lags-and-summations-for-rd" class="section level3">
-<h3>Creating Lags and Summations for R&amp;D</h3>
 </div>
-<div id="running-regressions" class="section level3">
-<h3>Running Regressions</h3>
+<div id="running-regressions" class="section level2">
+<h2>Running Regressions</h2>
 <p>I got rid of our old regressions. New ones will be here. :)</p>
-</div>
 </div>
 <div id="plotting-our-data" class="section level2">
 <h2>Plotting our Data</h2>
