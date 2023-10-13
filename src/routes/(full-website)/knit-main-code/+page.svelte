@@ -377,6 +377,153 @@ pre code {
 </div>
 <div id="descriptive-statistics" class="section level3">
 <h3>Descriptive Statistics</h3>
+<div id="united-states-of-america-usa" class="section level4">
+<h4>United States of America (USA)</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="center">Observations</th>
+<th align="center">Mean</th>
+<th align="center">Minimum</th>
+<th align="center">Median</th>
+<th align="right">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Income Held by Lowest 10%</td>
+<td align="center">59</td>
+<td align="center">1.907</td>
+<td align="center">1.7</td>
+<td align="center">1.9</td>
+<td align="right">2.3</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Intermediate Education</td>
+<td align="center">29</td>
+<td align="center">61.285</td>
+<td align="center">55.47</td>
+<td align="center">62.24</td>
+<td align="right">66.07</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D</td>
+<td align="center">25</td>
+<td align="center">2.717</td>
+<td align="center">2.45</td>
+<td align="center">2.682</td>
+<td align="right">3.45</td>
+</tr>
+<tr class="even">
+<td align="left">Political Stability</td>
+<td align="center">24</td>
+<td align="center">0.395</td>
+<td align="center">-0.233</td>
+<td align="center">0.412</td>
+<td align="right">1.083</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="brazil-bra" class="section level4">
+<h4>Brazil (BRA)</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="center">Observations</th>
+<th align="center">Mean</th>
+<th align="center">Minimum</th>
+<th align="center">Median</th>
+<th align="right">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Income Held by Lowest 10%</td>
+<td align="center">37</td>
+<td align="center">0.914</td>
+<td align="center">0.6</td>
+<td align="center">0.9</td>
+<td align="right">1.6</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Intermediate Education</td>
+<td align="center">26</td>
+<td align="center">78.209</td>
+<td align="center">70.12</td>
+<td align="center">78.87</td>
+<td align="right">83.06</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D</td>
+<td align="center">20</td>
+<td align="center">1.122</td>
+<td align="center">0.963</td>
+<td align="center">1.123</td>
+<td align="right">1.371</td>
+</tr>
+<tr class="even">
+<td align="left">Political Stability</td>
+<td align="center">24</td>
+<td align="center">-0.223</td>
+<td align="center">-0.714</td>
+<td align="center">-0.285</td>
+<td align="right">0.328</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="uganda-uga" class="section level4">
+<h4>Uganda (UGA)</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="center">Observations</th>
+<th align="center">Mean</th>
+<th align="center">Minimum</th>
+<th align="center">Median</th>
+<th align="right">Maximum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Income Held by Lowest 10%</td>
+<td align="center">10</td>
+<td align="center">2.39</td>
+<td align="center">1.9</td>
+<td align="center">2.4</td>
+<td align="right">2.8</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Intermediate Education</td>
+<td align="center">4</td>
+<td align="center">70.27</td>
+<td align="center">59.02</td>
+<td align="center">70.93</td>
+<td align="right">80.2</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D</td>
+<td align="center">10</td>
+<td align="center">0.287</td>
+<td align="center">0.143</td>
+<td align="center">0.28</td>
+<td align="right">0.388</td>
+</tr>
+<tr class="even">
+<td align="left">Political Stability</td>
+<td align="center">24</td>
+<td align="center">-1.007</td>
+<td align="center">-1.561</td>
+<td align="center">-0.939</td>
+<td align="right">-0.57</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="creating-sub-groups-based-on-gni-per-capita" class="section level3">
 <h3>Creating Sub-Groups Based on GNI per Capita</h3>
