@@ -9,7 +9,7 @@
 <td class = "yuh">
     <p>
 		<center>
-			<i>Nothing right now.</i>
+			<i><a href="https://tamu.zoom.us/j/91082488003">Zoom Link</a>></i>
 		</center>
 	</p>
 </td>
