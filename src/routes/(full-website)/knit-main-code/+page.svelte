@@ -607,9 +607,78 @@ pre code {
 </table>
 </div>
 </div>
-<div id="running-regressions" class="section level2">
-<h2>Running Regressions</h2>
-<p>I got rid of our old regressions. New ones will be here. :)</p>
+<div id="regression" class="section level2">
+<h2>Regression</h2>
+<p>Here’s the general equation: <span class="math inline">\(Y _ {it} = \beta _ {i} + \gamma _ {1} {RaD} _ {it} + \gamma _ {2} {RaD} _ {it - 1} + \gamma _ {3} {RaD} _ {it - 2} + \gamma _ {4} {RaD} _ {it - 3} + \eta _ {1} L _ {it} + \eta _ {2} P _ {it} + \epsilon _ {it}\)</span></p>
+<div id="united-states-of-america-usa-1" class="section level3">
+<h3>United States of America (USA)</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">USA</th>
+<th align="center">BRA</th>
+<th align="center">TBD</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-1.298</td>
+<td align="center">-2.08</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">RaD</td>
+<td align="center">0.146</td>
+<td align="center">0.534</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">RaD Lag = 1</td>
+<td align="center">0.167</td>
+<td align="center">0.145</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">RaD Lag = 2</td>
+<td align="center">0.072</td>
+<td align="center">0.345</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">RaD Lag = 3</td>
+<td align="center">0.224</td>
+<td align="center">-0.245</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR</td>
+<td align="center">0.023 *</td>
+<td align="center">0.028 **</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">Pol. Stab.</td>
+<td align="center">0.041</td>
+<td align="center">-0.091</td>
+<td align="center">NA</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">20</td>
+<td align="center">16</td>
+<td align="center">NA</td>
+</tr>
+<tr class="odd">
+<td align="left">Adj. R-Squared</td>
+<td align="center">0.036</td>
+<td align="center">0.594</td>
+<td align="center">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="plotting-our-data" class="section level2">
 <h2>Plotting our Data</h2>
