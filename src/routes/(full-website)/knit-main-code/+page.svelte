@@ -610,8 +610,6 @@ pre code {
 <div id="regression" class="section level2">
 <h2>Regression</h2>
 <p>Here’s the general equation: <span class="math inline">\(Y _ {it} = \beta _ {i} + \gamma _ {1} {RaD} _ {it} + \gamma _ {2} {RaD} _ {it - 1} + \gamma _ {3} {RaD} _ {it - 2} + \gamma _ {4} {RaD} _ {it - 3} + \eta _ {1} L _ {it} + \eta _ {2} P _ {it} + \epsilon _ {it}\)</span></p>
-<div id="united-states-of-america-usa-1" class="section level3">
-<h3>United States of America (USA)</h3>
 <table>
 <thead>
 <tr class="header">
@@ -678,7 +676,6 @@ pre code {
 </tr>
 </tbody>
 </table>
-</div>
 </div>
 <div id="plotting-our-data" class="section level2">
 <h2>Plotting our Data</h2>
