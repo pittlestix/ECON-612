@@ -609,7 +609,7 @@ pre code {
 </div>
 <div id="regression" class="section level2">
 <h2>Regression</h2>
-<p>Here’s the general equation: <span class="math inline">\(Y _ {it} = \beta _ {i} + \gamma _ {1} {RaD} _ {it} + \gamma _ {2} {RaD} _ {it - 1} + \gamma _ {3} {RaD} _ {it - 2} + \gamma _ {4} {RaD} _ {it - 3} + \eta _ {1} L _ {it} + \eta _ {2} P _ {it} + \epsilon _ {it}\)</span></p>
+<p>Here’s the general equation: <span class="math inline">\(Y _ {it} = \beta _ {i} + \gamma _ {1} * {RaD} _ {it} + \gamma _ {2} * {RaD} _ {it - 1} + \gamma _ {3} * {RaD} _ {it - 2} + \gamma _ {4} * {RaD} _ {it - 3} + \eta _ {1} * L _ {it} + \eta _ {2} * P _ {it} + \epsilon _ {it}\)</span></p>
 <table>
 <thead>
 <tr class="header">
