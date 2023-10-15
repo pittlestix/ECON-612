@@ -362,6 +362,14 @@ pre code {
 </div>
 
 
+<p>Daphnie &amp; Binh: If y’all are trying to conduct a regression or look at the data, I have some warnings!!!</p>
+<p>Currently, the data for <em>all</em> countries is included in each data_ object.</p>
+<p>Because of this, I’ve had to comment out the regressions and plots (they rely on the data being isolated to only the countries we want.)</p>
+<p>If you want to conduct a regression with the code that already exists, you should be able to just un-comment-out the lines in the IMPORT chunk that specify which three countries to isolate. For all data except data_pst, this is the line before the <code>rownames</code> line.</p>
+<p>In this line, replace the second number (not 27 or 207) with the number of the country you want. This number can be found by looking at the Data Notes knit.</p>
+<p>You also need to import the pst data for this country individually. So, go the WGI, download the data, add it to the Data folder, and rename it with the following naming convention: WGI_Political_Stability_COUNTRYCODE.csv</p>
+<p>You can then un-comment-out the code after the data_pst import (it starts with the import of data_pst_IND) and Find &amp; Replace IND with whatever the country code is. I would replace <em>all</em> instances of IND.</p>
+<p>Once all of this is done, you <em>should</em> be able to just un-comment-out the rest of the chunks and it should work.</p>
 <div id="data" class="section level2">
 <h2>Data</h2>
 <div id="importing-data" class="section level3">
