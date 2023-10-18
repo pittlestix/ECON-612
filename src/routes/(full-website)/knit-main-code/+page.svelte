@@ -362,15 +362,11 @@ pre code {
 </div>
 
 
-<div id="state-of-the-union" class="section level1">
-<h1>State of the Union</h1>
-<p>Currently, the data for <em>all</em> countries is included in each <code>data_</code> object.</p>
-<p>Because of this, I’ve had to comment out the regressions and plots (they rely on the data being isolated to only the countries we want.)</p>
-<p>If you want to conduct a regression with the code that already exists, you should be able to just un-comment-out the lines in the <code>IMPORT</code> chunk that specify which three countries to isolate. For all data except data_pst, this is the line before the <code>rownames</code> line.</p>
-<p>In this line, replace the second number (not 27 or 207) with the number of the country you want. This number can be found by looking at the <a href="https://pittlestix.github.io/ECON-612/knit-data-notes.html">Data Notes knit</a>.</p>
-<p>You also need to import the <code>pst</code> data for this country individually. So, go the <a href="https://databank.worldbank.org/source/world-development-indicators">WGI</a>, download the data, add it to the Data folder, and rename it with the following naming convention: WGI_Political_Stability_COUNTRYCODE.csv</p>
-<p>You can then un-comment-out the code after the <code>data_pst</code> import (it starts with the import of <code>data_pst_IND</code>) and Find &amp; Replace “IND” with whatever the country code is. I would replace <em>all</em> instances of IND so that all the chunks update.</p>
-<p>Once all of this is done, you <em>should</em> be able to just un-comment-out the rest of the code and it should work.</p>
+<div id="helpful-links" class="section level2">
+<h2>Helpful Links</h2>
+<p><a href="https://pittlestix.github.io/ECON-612/knit-data-notes.html">Data Notes knit</a></p>
+<p><a href="https://databank.worldbank.org/source/world-governance-indicators">WGI</a></p>
+</div>
 <div id="data" class="section level2">
 <h2>Data</h2>
 <div id="importing-data" class="section level3">
@@ -386,242 +382,1886 @@ pre code {
 <table>
 <thead>
 <tr class="header">
-<th align="left">Code</th>
-<th align="right">Minimum Observations</th>
+<th align="left">ILO</th>
+<th align="center">ARG</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">EGY</td>
-<td align="right">10</td>
+<td align="left">Intercept</td>
+<td align="center">-1.319</td>
 </tr>
 <tr class="even">
-<td align="left">MYS</td>
-<td align="right">10</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.118</td>
 </tr>
 <tr class="odd">
-<td align="left">MNG</td>
-<td align="right">10</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">1.053 **</td>
 </tr>
 <tr class="even">
-<td align="left">MKD</td>
-<td align="right">11</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">1.023 *</td>
 </tr>
 <tr class="odd">
-<td align="left">AUS</td>
-<td align="right">12</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.815 **</td>
 </tr>
 <tr class="even">
-<td align="left">HRV</td>
-<td align="right">12</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.022</td>
 </tr>
 <tr class="odd">
-<td align="left">GEO</td>
-<td align="right">12</td>
+<td align="left">Political Stability</td>
+<td align="center">0.118</td>
 </tr>
 <tr class="even">
-<td align="left">CHL</td>
-<td align="right">13</td>
+<td align="left">Observations</td>
+<td align="center">13</td>
 </tr>
 <tr class="odd">
-<td align="left">SLV</td>
-<td align="right">13</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.938</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">ARM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">5.897 **</td>
 </tr>
 <tr class="even">
-<td align="left">ISR</td>
-<td align="right">13</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">2.46</td>
 </tr>
 <tr class="odd">
-<td align="left">PAK</td>
-<td align="right">13</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-4.841</td>
 </tr>
 <tr class="even">
-<td align="left">RUS</td>
-<td align="right">13</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-5.074</td>
 </tr>
 <tr class="odd">
-<td align="left">IRN</td>
-<td align="right">14</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-2.918</td>
 </tr>
 <tr class="even">
-<td align="left">ARG</td>
-<td align="right">15</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.006</td>
 </tr>
 <tr class="odd">
-<td align="left">ARM</td>
-<td align="right">15</td>
+<td align="left">Political Stability</td>
+<td align="center">0.459</td>
 </tr>
 <tr class="even">
-<td align="left">BGR</td>
-<td align="right">15</td>
+<td align="left">Observations</td>
+<td align="center">14</td>
 </tr>
 <tr class="odd">
-<td align="left">ECU</td>
-<td align="right">15</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.027</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">AUT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">11.602 ***</td>
 </tr>
 <tr class="even">
-<td align="left">ISL</td>
-<td align="right">15</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.185</td>
 </tr>
 <tr class="odd">
-<td align="left">MLT</td>
-<td align="right">15</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.126</td>
 </tr>
 <tr class="even">
-<td align="left">PRY</td>
-<td align="right">15</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.828</td>
 </tr>
 <tr class="odd">
-<td align="left">ROU</td>
-<td align="right">15</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.185</td>
 </tr>
 <tr class="even">
-<td align="left">THA</td>
-<td align="right">15</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.105</td>
 </tr>
 <tr class="odd">
-<td align="left">POL</td>
-<td align="right">16</td>
+<td align="left">Political Stability</td>
+<td align="center">0.113</td>
 </tr>
 <tr class="even">
-<td align="left">SVK</td>
-<td align="right">16</td>
+<td align="left">Observations</td>
+<td align="center">19</td>
 </tr>
 <tr class="odd">
-<td align="left">URY</td>
-<td align="right">16</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.597</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">BEL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">1.497 *</td>
 </tr>
 <tr class="even">
-<td align="left">CYP</td>
-<td align="right">17</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.877 *</td>
 </tr>
 <tr class="odd">
-<td align="left">HUN</td>
-<td align="right">17</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.979</td>
 </tr>
 <tr class="even">
-<td align="left">LVA</td>
-<td align="right">17</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.153</td>
 </tr>
 <tr class="odd">
-<td align="left">LTU</td>
-<td align="right">17</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.541</td>
 </tr>
 <tr class="even">
-<td align="left">MEX</td>
-<td align="right">17</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.02</td>
 </tr>
 <tr class="odd">
-<td align="left">SVN</td>
-<td align="right">17</td>
+<td align="left">Political Stability</td>
+<td align="center">-0.032</td>
 </tr>
 <tr class="even">
-<td align="left">EST</td>
-<td align="right">18</td>
+<td align="left">Observations</td>
+<td align="center">19</td>
 </tr>
 <tr class="odd">
-<td align="left">PER</td>
-<td align="right">18</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.65</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">BRA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-2.08</td>
 </tr>
 <tr class="even">
-<td align="left">PRT</td>
-<td align="right">18</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.534</td>
 </tr>
 <tr class="odd">
-<td align="left">COL</td>
-<td align="right">19</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.145</td>
 </tr>
 <tr class="even">
-<td align="left">LUX</td>
-<td align="right">19</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.345</td>
 </tr>
 <tr class="odd">
-<td align="left">PAN</td>
-<td align="right">19</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.245</td>
 </tr>
 <tr class="even">
-<td align="left">BRA</td>
-<td align="right">20</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.028 **</td>
 </tr>
 <tr class="odd">
-<td align="left">CRI</td>
-<td align="right">20</td>
+<td align="left">Political Stability</td>
+<td align="center">-0.091</td>
 </tr>
 <tr class="even">
-<td align="left">GRC</td>
-<td align="right">20</td>
+<td align="left">Observations</td>
+<td align="center">16</td>
 </tr>
 <tr class="odd">
-<td align="left">MDA</td>
-<td align="right">20</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.594</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">BGR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">0.807</td>
 </tr>
 <tr class="even">
-<td align="left">TUR</td>
-<td align="right">20</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.158</td>
 </tr>
 <tr class="odd">
-<td align="left">CZE</td>
-<td align="right">21</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.398</td>
 </tr>
 <tr class="even">
-<td align="left">SWE</td>
-<td align="right">21</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.184</td>
 </tr>
 <tr class="odd">
-<td align="left">DNK</td>
-<td align="right">22</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.482</td>
 </tr>
 <tr class="even">
-<td align="left">FIN</td>
-<td align="right">22</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.02</td>
 </tr>
 <tr class="odd">
-<td align="left">NLD</td>
-<td align="right">22</td>
+<td align="left">Political Stability</td>
+<td align="center">0.695</td>
 </tr>
 <tr class="even">
-<td align="left">NOR</td>
-<td align="right">22</td>
+<td align="left">Observations</td>
+<td align="center">15</td>
 </tr>
 <tr class="odd">
-<td align="left">BEL</td>
-<td align="right">24</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">-0.015</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">CAN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">4.678 ***</td>
 </tr>
 <tr class="even">
-<td align="left">IRL</td>
-<td align="right">24</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.444</td>
 </tr>
 <tr class="odd">
-<td align="left">GBR</td>
-<td align="right">24</td>
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.044</td>
 </tr>
 <tr class="even">
-<td align="left">AUT</td>
-<td align="right">25</td>
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">1.094</td>
 </tr>
 <tr class="odd">
-<td align="left">CAN</td>
-<td align="right">25</td>
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-1.048</td>
 </tr>
 <tr class="even">
-<td align="left">FRA</td>
-<td align="right">25</td>
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.041</td>
 </tr>
 <tr class="odd">
-<td align="left">DEU</td>
-<td align="right">25</td>
+<td align="left">Political Stability</td>
+<td align="center">-0.23</td>
 </tr>
 <tr class="even">
-<td align="left">ITA</td>
-<td align="right">25</td>
+<td align="left">Observations</td>
+<td align="center">19</td>
 </tr>
 <tr class="odd">
-<td align="left">ESP</td>
-<td align="right">25</td>
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.064</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">COL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-1.647</td>
 </tr>
 <tr class="even">
-<td align="left">USA</td>
-<td align="right">25</td>
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.402</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.308</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">1.046 *</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">1.12 **</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.032 ***</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.046</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">15</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.813</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">CRI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">0.496</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-1.251</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.183</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.01</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.226</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.021</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.606</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">10</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">-0.475</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">CYP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">4.193</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">2.064</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.174</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-1.249</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-2.649</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.003</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.37</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.116</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">CZE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-2.313</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.301</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.134</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.002</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.561 *</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.072 **</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.512</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">18</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.557</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">DNK</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">5.303 *</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.544</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.006</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.273</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.247</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.008</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.585</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.725</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">EST</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-2.835</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.28</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.255</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.032</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.103</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.099 ***</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-2.079</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">18</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.653</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">FIN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">4.7 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.208</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.121</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.223</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.175</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.007</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.393 *</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.26</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">FRA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">3.727 **</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.837</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.836</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.983</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.256</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.007</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.123</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">20</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.345</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">DEU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">6.228 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.539</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.576</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.279</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.983</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.019</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.051</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.689</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">GRC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-28.029</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">2.117</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">1.302</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.491</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.817</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.463 **</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.518 **</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">15</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.506</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">HUN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-2.314</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.564</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.649</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.662</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-1.025</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.113</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-1.8</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.093</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">IRL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">6.662 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.4</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.004</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-1.046</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.219</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.017</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.67</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">20</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.329</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">ITA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">5.717</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">2.311</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-2.39</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-1.898</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.031</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.014</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.656</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.559</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">LVA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">4.139</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.279</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.636</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.124</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.228</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.031</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.004</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">-0.087</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">LTU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">12.714 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.519</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-1.056</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-1.544</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-1.182</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.129</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.865</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.539</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">LUX</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">4.06</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.874 *</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.87</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.622</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">1.764 ***</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.071</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">1.096</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">15</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.773</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">MLT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">3.007 **</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.444</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.758</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.278</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.128</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.019</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.593</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">15</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.133</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">MEX</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">4.204 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-2.86</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">1.996</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.147</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.929</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.048</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.517</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">11</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.578</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">MDA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-1.504</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-1.332</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.623</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.258</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.166</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.093 ***</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.212</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">14</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.873</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">NLD</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">9.347 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.385</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.176</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.34</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.099</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.074</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.299</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.345</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">NOR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">3.789</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.066</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.766</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.515</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.196</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.011</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.994 **</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">16</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.412</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">PAN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">1.17</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-1.543</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.289</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.402</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.241</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.002</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.164</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">13</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.302</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">PER</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-6.588</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.003</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">23.578 *</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-17.313</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">5.522 **</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.093 **</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.222</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">10</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.891</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">POL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">12.841 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.763</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.585</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.004</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.726</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.156</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.128</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">16</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.803</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">PRT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-2.543</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.175</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.848</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.049</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-1.35</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.078 ***</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.212</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">18</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.687</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">ROU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-4.788</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.572</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">2.067</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.302</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.251</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.082</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.553 *</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">15</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.136</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">SVK</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">7.389 **</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.751</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-1.375</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.937 **</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.09</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.042</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.517</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">16</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.537</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">SVN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">11.232 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.132</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.524</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.028</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.053</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.097</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.248</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.758</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">ESP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">2.781 **</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.532</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-1.305</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.14</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-0.881</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.016</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.172</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.866</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">SWE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-7.401</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.041</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.503</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-0.007</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.137</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.099</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.549</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">15</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.504</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">TUR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">1.513</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-0.775</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.978</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.915</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">-1.252</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.011</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">-0.082</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">18</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.075</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">GBR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">6.135 ***</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">-1.504</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">-0.721</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">1.457</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.189</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">-0.03</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.083</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">19</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.492</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">USA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-1.298</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">0.146</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">0.167</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">0.072</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">0.224</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.023 *</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.041</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">20</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.036</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th align="left">ILO</th>
+<th align="center">URY</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Intercept</td>
+<td align="center">-2.046</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure</td>
+<td align="center">2.372</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 1</td>
+<td align="center">1.546</td>
+</tr>
+<tr class="even">
+<td align="left">R&amp;D Expenditure, Lag = 2</td>
+<td align="center">-2.705</td>
+</tr>
+<tr class="odd">
+<td align="left">R&amp;D Expenditure, Lag = 3</td>
+<td align="center">1.414</td>
+</tr>
+<tr class="even">
+<td align="left">LFPR for Secondary Education</td>
+<td align="center">0.034</td>
+</tr>
+<tr class="odd">
+<td align="left">Political Stability</td>
+<td align="center">0.578</td>
+</tr>
+<tr class="even">
+<td align="left">Observations</td>
+<td align="center">11</td>
+</tr>
+<tr class="odd">
+<td align="left">Adjusted R-Squared</td>
+<td align="center">0.117</td>
 </tr>
 </tbody>
 </table>
@@ -630,101 +2270,9 @@ pre code {
 <h3>Descriptive Statistics</h3>
 <div id="united-states-of-america-usa" class="section level4">
 <h4>United States of America (USA)</h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Variable</th>
-<th align="center">Observations</th>
-<th align="center">Mean</th>
-<th align="center">Minimum</th>
-<th align="center">Median</th>
-<th align="right">Maximum</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Income Held by Lowest 10%</td>
-<td align="center">59</td>
-<td align="center">1.907</td>
-<td align="center">1.7</td>
-<td align="center">1.9</td>
-<td align="right">2.3</td>
-</tr>
-<tr class="even">
-<td align="left">LFPR for Intermediate Education</td>
-<td align="center">29</td>
-<td align="center">61.285</td>
-<td align="center">55.47</td>
-<td align="center">62.24</td>
-<td align="right">66.07</td>
-</tr>
-<tr class="odd">
-<td align="left">R&amp;D</td>
-<td align="center">25</td>
-<td align="center">2.717</td>
-<td align="center">2.45</td>
-<td align="center">2.682</td>
-<td align="right">3.45</td>
-</tr>
-<tr class="even">
-<td align="left">Political Stability</td>
-<td align="center">24</td>
-<td align="center">0.395</td>
-<td align="center">-0.233</td>
-<td align="center">0.412</td>
-<td align="right">1.083</td>
-</tr>
-</tbody>
-</table>
 </div>
 <div id="brazil-bra" class="section level4">
 <h4>Brazil (BRA)</h4>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Variable</th>
-<th align="center">Observations</th>
-<th align="center">Mean</th>
-<th align="center">Minimum</th>
-<th align="center">Median</th>
-<th align="right">Maximum</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Income Held by Lowest 10%</td>
-<td align="center">37</td>
-<td align="center">0.914</td>
-<td align="center">0.6</td>
-<td align="center">0.9</td>
-<td align="right">1.6</td>
-</tr>
-<tr class="even">
-<td align="left">LFPR for Intermediate Education</td>
-<td align="center">26</td>
-<td align="center">78.209</td>
-<td align="center">70.12</td>
-<td align="center">78.87</td>
-<td align="right">83.06</td>
-</tr>
-<tr class="odd">
-<td align="left">R&amp;D</td>
-<td align="center">20</td>
-<td align="center">1.122</td>
-<td align="center">0.963</td>
-<td align="center">1.123</td>
-<td align="right">1.371</td>
-</tr>
-<tr class="even">
-<td align="left">Political Stability</td>
-<td align="center">24</td>
-<td align="center">-0.223</td>
-<td align="center">-0.714</td>
-<td align="center">-0.285</td>
-<td align="right">0.328</td>
-</tr>
-</tbody>
-</table>
 </div>
 <div id="india-ind" class="section level4">
 <h4>India (IND)</h4>
@@ -794,7 +2342,6 @@ pre code {
 </div>
 <div id="plot-4-labor-force-participation-rate-for-intermediate-education-across-time" class="section level3">
 <h3>Plot 4: Labor Force Participation Rate for Intermediate Education Across Time</h3>
-</div>
 </div>
 </div>
 
