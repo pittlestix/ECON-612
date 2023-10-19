@@ -9,7 +9,7 @@
 <td class = "yuh">
     <p>
 		<center>
-			<i><a href="https://tamu.zoom.us/j/91976286323">Zoom Link</a></i>
+			<i><a href="https://tamu.zoom.us/j/96509245414?pwd=U0tIWFBpcjdsckRBRk9PV1NZTjJCZz09">Zoom Link</a></i>
 		</center>
 	</p>
 </td>
