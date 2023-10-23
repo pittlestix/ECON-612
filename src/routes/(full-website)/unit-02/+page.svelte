@@ -8,6 +8,7 @@
     let showExample73: boolean = false;
     let showExample74: boolean = false;
     let showExample76: boolean = false;
+    let showExample82: boolean = false;
     let showExample84: boolean = false;
     let showExample85: boolean = false;
     let showExample86: boolean = false;
@@ -22,23 +23,22 @@
         <p><span style="font-size: 24px"><b>Unit 2</b></span></p>
         <p>
             <span style="font-size: 18px"><b>Homeworks</b></span><br>
-            <a on:click={() => (showHomework4 = true)}>Homework 4</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showHomework5 = true)}>Homework 5</a><span style="color: #FF628B">*</span>
+            <a on:click={() => (showHomework4 = true)}>Homework 4</a><br>
+            <a on:click={() => (showHomework5 = true)}>Homework 5</a>
         </p>
         <p>
             <span style="font-size: 18px"><b>From Lectures</b></span><br>
-            <a on:click={() => (showExample71 = true)}>Example 7.1: Self-Investment Incentives</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showExample72 = true)}>Example 7.2: Signaling Profitability</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showExample73 = true)}>Example 7.3: Collateral as a Sorting Device</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showExample74 = true)}>Example 7.4: Collateral in Moral Hazard</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showExample76 = true)}>Example 7.6: Moral Hazard of Effort</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showExample84 = true)}>Example 8.4: Multi-Period Contracts</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showExample85 = true)}>Example 8.5: Learning over Time</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showExample86 = true)}>Example 8.6: Restructuring</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showExample87 = true)}>Example 8.7: Restructuring with Multiple Creditors</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showExample88 = true)}>Example 8.8: Creditor Coalitions and Coordination Problems</a><span style="color: #FF628B">*</span>
+            <a on:click={() => (showExample73 = true)}>Example 7.3: Adverse Selection with Collateral</a><span style="color: #FF628B">*</span><br>
+            UPLOAD <a on:click={() => (showExample74 = true)}>Example 7.4: Moral Hazard with Collateral</a><span style="color: #FF628B">*</span><br>
+            UPLOAD <a on:click={() => (showExample76 = true)}>Example 7.6: Moral Hazard of Effort</a><span style="color: #FF628B">*</span><br>
+            UPLOAD <a on:click={() => (showExample82 = true)}>Example 8.2: Credit Rationing</a><span style="color: #FF628B">*</span><br>
+            ?? <a on:click={() => (showExample84 = true)}>Example 8.4: Multi-Period Contracts</a><span style="color: #FF628B">*</span><br>
+            ?? <a on:click={() => (showExample85 = true)}>Example 8.5: Bayesian Updating</a><br>
+            ?? <a on:click={() => (showExample86 = true)}>Example 8.6: Restructuring</a><span style="color: #FF628B">*</span><br>
+            ?? <a on:click={() => (showExample87 = true)}>Example 8.7: Restructuring with Multiple Creditors</a><span style="color: #FF628B">*</span><br>
+            UPLOAD <a on:click={() => (showExample88 = true)}>Example 8.8: Creditor Coalitions and Coordination Problems</a><span style="color: #FF628B">*</span>
         </p>
-        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content is from the previous academic year and has not been updated to reflect this year's lecture content. This is likely due to the content not yet being covered.</span></p>
+        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content has a different structure than the one presented in class or posted on Canvas. While the answers and processes should be the same, the structure or wording of the questions is altered. I suggest you reference the provided Questions file, which you can access separately or at the end of the Solutions file.</span></p>
     </td>
     </tr>
     </table>
@@ -48,11 +48,11 @@
     <Modal bind:showModal = {showHomework4}>
         <center>
             <p><b><span style="font-size: 24px">Homework 4</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
-            <!-- <p>The following materials are available:</p> -->
-            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
-            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
-            <p><i>Last updated 07/30/2023.</i></p>
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
+            <p>The following materials are available:</p>
+            <a href="https://drive.google.com/file/d/1bW_OSsAn-GxO0I1_DKEJKQ6dgsSXwewa/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/16y-GxeyRoD1EnEsQOZb429Hml2lngS8l/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
+            <p><i>Last updated 10/06/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showHomework5}>
@@ -62,7 +62,7 @@
             <!-- <p>The following materials are available:</p> -->
             <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
-            <p><i>Last updated 07/30/2023.</i></p>
+            <p><i>Last updated 10/23/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showExample71}>
@@ -114,6 +114,16 @@
             <a href="https://drive.google.com/file/d/1Hg53ue8F3k2D0xmC2S_7_RkuwMwlEohN/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
             <p><i>Last updated 08/04/2023.</i></p>
         </center>
+    </Modal>
+    <Modal bind:showModal = {showExample82}>
+        <center>
+            <p><b><span style="font-size: 24px">Example 8.2</span></b></p>
+            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
+            <!-- <p>The following materials are available:</p> -->
+            <!-- <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="" target="_blank"><button class="button button1"><b>Questions</b></button></a> -->
+            <p><i>Last updated 07/30/2023.</i></p>
+        </center>  
     </Modal>
     <Modal bind:showModal = {showExample84}>
         <center>

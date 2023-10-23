@@ -14,13 +14,14 @@
     <table align="center" width="900px" cellpadding="60px">
     <tr>
     <td class="yuh">
-        <p><span style="font-size: 24px"><b>Unit 3</b></span></p>
+        <!-- <p><span style="font-size: 24px"><b>Unit 3</b></span></p> -->
         <p>
-            <span style="font-size: 18px"><b>Homeworks</b></span><br>
+            <center><i>This unit has no content. Please check back later.</i></center>
+            <!-- <span style="font-size: 18px"><b>Homeworks</b></span><br>
             <a on:click={() => (showHomework6 = true)}>Homework 6</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showHomework7 = true)}>Homework 7</a><span style="color: #FF628B">*</span>
+            <a on:click={() => (showHomework7 = true)}>Homework 7</a><span style="color: #FF628B">*</span> -->
         </p>
-        <p>
+        <!-- <p>
             <span style="font-size: 18px"><b>Other Examples</b></span><br>
             <a on:click={() => (showExample111 = true)}>Example 11.1: Securitization</a><span style="color: #FF628B">*</span><br>
             <a on:click={() => (showExample112 = true)}>Example 11.2: Securitization</a><span style="color: #FF628B">*</span><br>
@@ -28,7 +29,7 @@
             <a on:click={() => (showDiamondDybvigGameTheoreticModel = true)}>Diamond-Dybvig Game Theoretic Model</a><span style="color: #FF628B">*</span> (from slides)<br>
             <a on:click={() => (showUnderstandingBankRuns = true)}>Understanding Bank Runs</a><span style="color: #FF628B">*</span> (discussion)
         </p>    
-        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content is from the previous academic year and has not been updated to reflect this year's lecture content. This is likely due to the content not yet being covered.</span></p>    
+        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content is from the previous academic year and has not been updated to reflect this year's lecture content. This is likely due to the content not yet being covered.</span></p>     -->
     </td>
     </tr>
     </table>

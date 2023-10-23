@@ -19,18 +19,23 @@
         <p><span style="font-size: 24px"><b>Unit 1</b></span></p>
         <p>
             <span style="font-size: 18px"><b>Homeworks</b></span><br>
-            <a on:click={() => (showHomework1 = true)}>Homework 1</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showHomework2 = true)}>Homework 2</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showHomework3 = true)}>Homework 3</a><span style="color: #FF628B">*</span>
+            <a on:click={() => (showHomework1 = true)}>Homework 1</a><br>
+            <!-- <a on:click={() => (showHomework2 = true)}>Homework 2</a><span style="color: #FF628B">*</span><br> -->
+            <!-- <a on:click={() => (showHomework3 = true)}>Homework 3</a><span style="color: #FF628B">*</span> -->
         </p>
         <p>
             <span style="font-size: 18px"><b>From Lectures</b></span><br>
-            <a on:click={() => (showTheAdvantagesofFIs = true)}>The Advantages of F.I.s</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showAdverseSelectionwithScreening = true)}>Adverse Selection with Screening</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showMoralHazard = true)}>Moral Hazard</a><span style="color: #FF628B">*</span> (from slides)<br>
-            <a on:click={() => (showOldMoneyCreation = true)}>Old Money Creation</a><span style="color: #FF628B">*</span> (from slides)
+            <!-- <a on:click={() => (showTheAdvantagesofFIs = true)}>The Advantages of F.I.s</a><span style="color: #FF628B">*</span> (from slides)<br> -->
+            <!-- <a on:click={() => (showAdverseSelectionwithScreening = true)}>Adverse Selection with Screening</a><span style="color: #FF628B">*</span> (from slides)<br> -->
+            <a on:click={() => (showMoralHazard = true)}>Moral Hazard</a><span style="color: #FF628B">*</span><br>
+            <a on:click={() => (showOldMoneyCreation = true)}>Old Money Creation</a><span style="color: #FF628B">*</span>
         </p>
-        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content is from the previous academic year and has not been updated to reflect this year's lecture content. This is likely due to the content not yet being covered.</span></p>
+        <p>
+            <span style="font-size: 18px"><b>Review Materials</b></span><br>
+            <a href="https://drive.google.com/file/d/1E4BGnd0VGszbuGRekmKs_7nGp_0YrkZd/view?usp=share_link" target="_blank">Exam 1 Review Slides</a><br>
+            <a href="https://youtu.be/hggeYwvviso" target="_blank">Exam 1 Review Recording</a>
+        </p>
+        <p><span style="font-size: 12px"><span style="color: #FF628B">*</span> This content has a different structure than the one presented in class or posted on Canvas. While the answers and processes should be the same, the structure or wording of the questions is altered. I suggest you reference the provided Questions file, which you can access separately or at the end of the Solutions file.</span></p>
         
     </td>
     </tr>
@@ -43,9 +48,9 @@
             <p><b><span style="font-size: 24px">Homework 1</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://drive.google.com/file/d/1RvNbKGxh2VmRN-KWcY4a-beMJnZwRhtG/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/1wjukdtcaBgvuYpJYXFVW85IigzVvhtoD/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1wjukdtcaBgvuYpJYXFVW85IigzVvhtoD/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
-            <p><i>Last updated 07/21/2023.</i></p>
+            <p><i>Last updated 09/05/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showHomework2}>
@@ -93,9 +98,9 @@
             <p><b><span style="font-size: 24px">Moral Hazard</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://drive.google.com/file/d/1EPRdIrOqtLM-bs7N8Jrz4cXpFhEsrenn/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/1U78Tx3KCZEJbeCNCjKPk0cD6qB6z2PCx/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1YX9qxCr0y1qfwSV6UWju2pqz2Psg12jM/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
-            <p><i>Last updated 07/21/2023.</i></p>
+            <p><i>Last updated 09/05/2023.</i></p>
         </center>
     </Modal>
     <Modal bind:showModal = {showOldMoneyCreation}>
@@ -103,9 +108,9 @@
             <p><b><span style="font-size: 24px">Old Money Creation</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://drive.google.com/file/d/1bxcgV_v6uC8qkfYjNk8SJWIutUiBwhEu/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/1Lcnjb9N5M-Aij8DLmAwSpU5Q3Yz4j_1f/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/19KO7VVgfhfw26dyJ8kkxOvVoQQjCzqIn/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
-            <p><i>Last updated 07/21/2023.</i></p>
+            <p><i>Last updated 09/15/2023.</i></p>
         </center>
     </Modal>
 </body>
