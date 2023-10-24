@@ -176,7 +176,7 @@
             <p><b><span style="font-size: 24px">Example 8.8</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/1IEm-tbvbwZbWse6m5TNKPbSym11V60tW/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1OuixGRpsPps_ox2XNxPh6RZ6AoMbVpc0/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
