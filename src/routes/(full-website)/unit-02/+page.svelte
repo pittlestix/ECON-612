@@ -37,7 +37,7 @@
             <a on:click={() => (showExample85 = true)}>Example 8.5: Bayesian Updating</a><br>
             <a on:click={() => (showExample86 = true)}>Example 8.6: Restructuring</a><span style="color: #FF628B">*</span><br>
             <a on:click={() => (showExample87 = true)}>Example 8.7: Restructuring with Multiple Creditors</a><span style="color: #FF628B">*</span><br>
-            UPLOAD <a on:click={() => (showExample88 = true)}>Example 8.8: Creditor Coalitions and Coordination Problems</a><span style="color: #FF628B">*</span>
+            <a on:click={() => (showExample88 = true)}>Example 8.8: Creditor Coalitions and Coordination Problems</a><span style="color: #FF628B">*</span>
         </p>
         <p>
             <span style="font-size: 18px"><b>Review Materials</b></span><br>
