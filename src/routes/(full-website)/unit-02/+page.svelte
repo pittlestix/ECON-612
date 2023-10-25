@@ -35,9 +35,9 @@
             <a on:click={() => (showExample82 = true)}>Example 8.2: Credit Rationing</a><span style="color: #FF628B">*</span><br>
             <a on:click={() => (showExample84 = true)}>Example 8.4: Multi-Period Contracts</a><span style="color: #FF628B">*</span><br>
             <a on:click={() => (showExample85 = true)}>Example 8.5: Bayesian Updating</a><br>
-            <a on:click={() => (showExample86 = true)}>Example 8.6: Restructuring</a><span style="color: #FF628B">*</span><br>
+            <a on:click={() => (showExample86 = true)}>Example 8.6: Restructuring with a Single Creditor</a><span style="color: #FF628B">*</span><br>
             <a on:click={() => (showExample87 = true)}>Example 8.7: Restructuring with Multiple Creditors</a><span style="color: #FF628B">*</span><br>
-            <a on:click={() => (showExample88 = true)}>Example 8.8: Creditor Coalitions and Coordination Problems</a><span style="color: #FF628B">*</span>
+            <a on:click={() => (showExample88 = true)}>Example 8.8: Restructuring with Coordination Coalitions</a><span style="color: #FF628B">*</span>
         </p>
         <p>
             <span style="font-size: 18px"><b>Review Materials</b></span><br>
@@ -56,15 +56,17 @@
             <p><b><span style="font-size: 24px">Homework 4</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://drive.google.com/file/d/1bW_OSsAn-GxO0I1_DKEJKQ6dgsSXwewa/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
-            <a href="https://drive.google.com/file/d/16y-GxeyRoD1EnEsQOZb429Hml2lngS8l/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
+            <p><a href="https://drive.google.com/file/d/1bW_OSsAn-GxO0I1_DKEJKQ6dgsSXwewa/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://drive.google.com/file/d/16y-GxeyRoD1EnEsQOZb429Hml2lngS8l/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a></p>
+            <p><a href="https://youtu.be/GlwsEStEkCI" target="_blank"><button class="button button1"><b>Q1 Video</b></button></a>
+            <a href="https://drive.google.com/file/d/1kwSzAmn7pkHDzpq4Dy-25FzHAwunwt_8/view?usp=share_link" target="_blank"><button class="button button1"><b>Q1 Slides</b></button></a></p>
             <p><i>Last updated 10/06/2023.</i></p>
         </center>  
     </Modal>
     <Modal bind:showModal = {showHomework5}>
         <center>
             <p><b><span style="font-size: 24px">Homework 5</span></b></p>
-            <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p>
+            <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
             <a href="https://drive.google.com/file/d/1kCQkCPnb3nRMInSwvSHZhMpdCbJivFdV/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <a href="https://drive.google.com/file/d/1n529cBK_EEDXF8rWRvVWO_sBF0DDpE0m/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
