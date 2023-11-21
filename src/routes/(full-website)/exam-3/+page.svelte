@@ -7,12 +7,11 @@
     <table align="center" width="900px" cellpadding="60px">
     <tr>
     <td class="yuh">
-        <p><span style="font-size: 24px"><b>Exam 2 Instructions</b></span></p>
+        <p><span style="font-size: 24px"><b>Exam 3 Instructions</b></span></p>
         <span style="font-size: 20px">
             <p>Please only sit at desks with exams on them. Do not begin the exam until I indicate you can begin.</p>
             <p>If you have a question, please raise your hand.</p>
-            <p>The exam will end at 7:00pm.</p>
-            <p>When you have finished, place your exam in the clear bin at the front.</p>
+            <p>The exam will end at 7:15pm.</p>
             <br>
             <br>
             <br>
