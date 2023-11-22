@@ -9,9 +9,7 @@
     <td class="yuh">
         <p><span style="font-size: 24px"><b>Exam 3 Instructions</b></span></p>
         <span style="font-size: 20px">
-            <p>Please only sit at desks with exams on them. Do not begin the exam until I indicate you can begin.</p>
-            <p>If you have a question, please raise your hand.</p>
-            <p>The exam will end at 7:15pm.</p>
+            <p><a href="https://drive.google.com/file/d/1ys9HRyaxLifEC-9aMCgu0ROJTeJvgKdH/view?usp=share_link"> click here :)</a></p>
             <br>
             <br>
             <br>
