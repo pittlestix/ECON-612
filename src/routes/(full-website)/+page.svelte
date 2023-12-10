@@ -11,7 +11,7 @@
     <p>
         <center>
             Click <b><a href="https://canvas.tamu.edu/courses/229915/discussion_topics/1211697" target="_blank">here</a></b> to see my most recent announcement in Canvas.
-            I'm trying to link a PDF <a href="{base}/src/routes/PDFs/unit-01-advantages-of-FIs.pdf?raw=true">here</a>.
+            I'm trying to link a PDF <a href="{base}/src/routes/PDFs/unit-01-advantages-of-FIs.pdf?raw=true">here</a>. What about now?
         </center>
     </p>
 </td>
