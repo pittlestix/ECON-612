@@ -20,7 +20,7 @@
         <p>
             <span style="font-size: 18px"><b>Homeworks</b></span><br>
             <a on:click={() => (showHomework1 = true)}>Homework 1</a><br>
-            <!-- <a on:click={() => (showHomework2 = true)}>Homework 2</a><span style="color: #FF628B">*</span><br> -->
+            <a on:click={() => (showHomework2 = true)}>Homework 2</a><span style="color: #FF628B">*</span><br>
             <!-- <a on:click={() => (showHomework3 = true)}>Homework 3</a><span style="color: #FF628B">*</span> -->
         </p>
         <p>
@@ -58,9 +58,8 @@
             <p><b><span style="font-size: 24px">Homework 2</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://drive.google.com/file/d/1EL_qkHjAZqF7w1_Pr0n_O7S2Tp6I-k0q/view?usp=share_link" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
-            <a href="https://drive.google.com/file/d/1SDkdo6QK-kU3uz9v215o6L8wXmrnBmoa/view?usp=share_link" target="_blank"><button class="button button1"><b>Questions</b></button></a>
-            <p><i>Last updated 07/21/2023.</i></p>
+            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-2.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <p><i>Last updated 12/11/2023.</i></p>
         </center>
     </Modal>
     <Modal bind:showModal = {showHomework3}>
