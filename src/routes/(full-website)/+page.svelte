@@ -11,10 +11,7 @@
     <p>
         <center>
             Click <b><a href="https://canvas.tamu.edu/courses/229915/discussion_topics/1211697" target="_blank">here</a></b> to see my most recent announcement in Canvas.
-            I'm trying to link a PDF <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-advantages-of-FIs.pdf" target="_blank">Open PDF in New Tab</a>
-
-            
-            . What about now? 
+            I'm trying to link a PDF <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-advantages-of-FIs.pdf&embedded=true" target="_blank">Open PDF in New Tab</a>.
         </center>
     </p>
 </td>
