@@ -29,8 +29,8 @@
         </p>
         <p>
             <span style="font-size: 18px"><b>From Lectures</b></span><br>
-            <a on:click={() => (showExample73 = true)}>Example 7.1: Self-Investment Incentives</a><br>
-            <a on:click={() => (showExample73 = true)}>Example 7.2: Signaling Profitability</a><br>
+            <a on:click={() => (showExample71 = true)}>Example 7.1: Self-Investment Incentives</a><br>
+            <a on:click={() => (showExample72 = true)}>Example 7.2: Signaling Profitability</a><br>
             <a on:click={() => (showExample73 = true)}>Example 7.3: Adverse Selection with Collateral</a><br>
             <a on:click={() => (showExample74 = true)}>Example 7.4: Moral Hazard with Collateral</a><br>
             <a on:click={() => (showExample76 = true)}>Example 7.6: Moral Hazard of Effort</a><br>
