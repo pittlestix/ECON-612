@@ -46,7 +46,7 @@
             <p><b><span style="font-size: 24px">Homework 1</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-1.pdf" target="_blank"><button class="button button1"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-1.pdf"><button class="button button1"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
 
             
@@ -57,7 +57,7 @@
             <p><b><span style="font-size: 24px">Homework 2</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-2.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-2.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/11/2023.</i></p>
         </center>
     </Modal>
@@ -66,7 +66,7 @@
             <p><b><span style="font-size: 24px">Homework 3</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-3.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-3.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
         </center>
     </Modal>
@@ -75,7 +75,7 @@
             <p><b><span style="font-size: 24px">The Advantages of F.I.s</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-advantages-of-FIs.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-advantages-of-FIs.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
         </center>
     </Modal>
@@ -84,7 +84,7 @@
             <p><b><span style="font-size: 24px">Adverse Selection with Screening</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-adverse-selection-with-screening.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-adverse-selection-with-screening.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
         </center>
     </Modal>
@@ -93,7 +93,7 @@
             <p><b><span style="font-size: 24px">Moral Hazard</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-moral-hazard.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-moral-hazard.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
         </center>
     </Modal>
@@ -102,7 +102,7 @@
             <p><b><span style="font-size: 24px">Old Money Creation</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-old-money-creation.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-old-money-creation.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
         </center>
     </Modal>
