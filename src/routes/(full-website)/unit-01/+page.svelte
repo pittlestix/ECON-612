@@ -46,8 +46,10 @@
             <p><b><span style="font-size: 24px">Homework 1</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/main/src/routes/(full-website)/PDFs/unit-01-advantages-of-FIs.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-1.pdf" target="_blank"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 12/12/2023.</i></p>
+
+            
         </center>  
     </Modal>
     <Modal bind:showModal = {showHomework2}>
