@@ -46,8 +46,8 @@
             <p><b><span style="font-size: 24px">Homework 1</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-1.pdf"><button class="button button1"><button class="button button1"><b>Solutions</b></button></a>
-            <p><i>Last updated 12/12/2023.</i></p>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-01-homework-1.pdf"><button class="button button1"><b>Solutions</b></button></a>
+            <p><i>Last updated 12/11/2023.</i></p>
 
             
         </center>  

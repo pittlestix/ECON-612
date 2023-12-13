@@ -57,7 +57,7 @@
             <p><b><span style="font-size: 24px">Homework 4</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <p><a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-homework-4"><button class="button button1"><b>Solutions</b></button></a>
+            <p><a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-homework-4.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/06/2023.</i></p>
         </center>  
     </Modal>
@@ -66,7 +66,7 @@
             <p><b><span style="font-size: 24px">Homework 5</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-homework-5"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-homework-5.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
@@ -75,7 +75,7 @@
             <p><b><span style="font-size: 24px">Example 7.1</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-1"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-1.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 07/31/2023.</i></p>
         </center>  
     </Modal>
@@ -84,7 +84,7 @@
             <p><b><span style="font-size: 24px">Example 7.2</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-2"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-2.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 08/03/2023.</i></p>
         </center>  
     </Modal>
@@ -93,7 +93,7 @@
             <p><b><span style="font-size: 24px">Example 7.3</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-3"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-3.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/05/2023.</i></p>
         </center>  
     </Modal>
@@ -102,7 +102,7 @@
             <p><b><span style="font-size: 24px">Example 7.4</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-4"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-4.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
@@ -111,7 +111,7 @@
             <p><b><span style="font-size: 24px">Example 7.6</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-6"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-7-6.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>
     </Modal>
@@ -120,7 +120,7 @@
             <p><b><span style="font-size: 24px">Example 8.2</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-2"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-2.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
@@ -129,7 +129,7 @@
             <p><b><span style="font-size: 24px">Example 8.4</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-4"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-4.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
@@ -138,7 +138,7 @@
             <p><b><span style="font-size: 24px">Example 8.5</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-5"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-5.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
@@ -147,7 +147,7 @@
             <p><b><span style="font-size: 24px">Example 8.6</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-6"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-6.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 07/30/2023.</i></p>
         </center>  
     </Modal>
@@ -156,7 +156,7 @@
             <p><b><span style="font-size: 24px">Example 8.7</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-7"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-7.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/08/2023.</i></p>
         </center>  
     </Modal>
@@ -165,7 +165,7 @@
             <p><b><span style="font-size: 24px">Example 8.8</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-8"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-example-8-8.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
@@ -174,7 +174,7 @@
             <p><b><span style="font-size: 24px">Exam 2 Review</span></b></p>
             <!-- <p>There is no content currently available. If you believe this to be a mistake, please <b><a href="{base}/contact-me">contact me</a></b>.</p> -->
             <p>The following materials are available:</p>
-            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-exam-review"><button class="button button1"><b>Solutions</b></button></a>
+            <a href="https://raw.githubusercontent.com/pittlestix/ECON-612/master/PDFs/unit-02-exam-review.pdf"><button class="button button1"><b>Solutions</b></button></a>
             <p><i>Last updated 10/24/2023.</i></p>
         </center>  
     </Modal>
