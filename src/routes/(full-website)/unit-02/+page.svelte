@@ -41,11 +41,11 @@
             <a on:click={() => (showExample87 = true)}>Example 8.7: Restructuring with Multiple Creditors</a><br>
             <a on:click={() => (showExample88 = true)}>Example 8.8: Restructuring with Coordination Coalitions</a>
         </p>
-        <p>
+        <!-- <p>
             <span style="font-size: 18px"><b>Review Materials</b></span><br>
             <a on:click={() => (showExam2Review = true)}>Exam 2 Review Slides</a><br>
             <a href="https://youtu.be/yOX_2al_-hc" target="_blank">Exam 2 Review Recording</a>
-        </p>
+        </p> -->
     </td>
     </tr>
     </table>
