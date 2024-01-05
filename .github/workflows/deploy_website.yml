@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/ECON-612'
+          BASE_PATH: '/chisme'
         run: |
           npm run build
           touch build/.nojekyll
