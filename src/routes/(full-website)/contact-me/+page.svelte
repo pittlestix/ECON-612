@@ -3,8 +3,7 @@
 	<tr>
 	<td class="yuh">
 		<p><b><span style="font-size: 24px">How to Contact Me</span></b></p>
-		<p>If you have any questions or corrections, feel free to contact me via email at <b><span style="color: #FF628B">pittlestix@tamu.edu</span></b>. To ensure you get a reply, use your TAMU email account and put "ECON 612" at the beginning of your subject line.</p>
-		<p>If you are looking to set up an appointment for office hours, please use <b><a href="https://forms.gle/v84eUyaBw4xDTJiMA" target="_blank">this Google Form</a></b> to do so. I will respond to you from my TAMU email <b><span style="color: #FF628B">pittlestix@tamu.edu</span></b> with the subject line "ECON 612 Office Hours Request".</p>
+		<p>If you have any issues accessing files, feel free to contact me via email at <b><span style="color: #FF628B">pittlestix@tamu.edu</span></b>. To increase the chance you get a reply, use your TAMU email account and put "ECON 612" at the beginning of your subject line.</p>
 	</td>
 	</tr>
 	</table>

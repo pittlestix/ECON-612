@@ -20,6 +20,7 @@
 			<a href="{base}/unit-01"><button class="button button1"><b>Unit 1</b></button></a>
 			<a href="{base}/unit-02"><button class="button button1"><b>Unit 2</b></button></a>
 			<a href="{base}/unit-03"><button class="button button1"><b>Unit 3</b></button></a>
+			<a href="{base}/contact-me"><button class="button button1"><b>Contact</b></button></a>
 		</center></p>
 		
 		</td>
